@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="96.645" tests="2" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="2" failures="0" errors="0" time="96.645" skipped="0" timestamp="2022-09-15 12:29:58" hostname="NicolaiBertelsenJens - DESKTOP-OVUIPS1" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NicolaiBertelsenJens\\git\\kt\\Reports\\20220915_122947\\New Test Suite\\20220915_122948"/>
+         <property name="logFiles" value="C:\\Users\\NicolaiBertelsenJens\\git\\kt\\Reports\\20220915_122947\\New Test Suite\\20220915_122948\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NicolaiBertelsenJens - DESKTOP-OVUIPS1"/>
+         <property name="hostAddress" value="192.168.50.120"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="11.096" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-09-15 12:29:58 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-09-15 12:29:59 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe", ""): The application at location: C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-15 12:30:00 - [MESSAGE][INFO] - Starting application C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe on the local machine at address http://127.0.0.1:4723
+
+2022-09-15 12:30:05 - [MESSAGE][PASSED] - The application at location: C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-15 12:30:05 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/LoginPage/Button - Maximize")): Click on element: Object Repository/LoginPage/Button - Maximize succesfully
+
+2022-09-15 12:30:06 - [MESSAGE][INFO] - Clicking on element: Object Repository/LoginPage/Button - Maximize
+
+2022-09-15 12:30:06 - [MESSAGE][PASSED] - Click on element: Object Repository/LoginPage/Button - Maximize succesfully
+
+2022-09-15 12:30:06 - [TEST_STEP][PASSED] - setText(findWindowsObject("Object Repository/LoginPage/Textfield - Username"), "Kis"): Text Kis is set
+
+2022-09-15 12:30:09 - [MESSAGE][PASSED] - Text Kis is set
+
+2022-09-15 12:30:09 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-09-15 12:30:09 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Crash_test" time="84.751" classname="Test Cases/Crash_test" status="PASSED">
+         <system-out><![CDATA[2022-09-15 12:30:09 - [TEST_CASE][PASSED] - Test Cases/Crash_test: Test Cases/Crash_test
+
+2022-09-15 12:30:11 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe", ""): The application at location: C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-15 12:30:11 - [MESSAGE][INFO] - Starting application C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe on the local machine at address http://127.0.0.1:4723
+
+2022-09-15 12:30:13 - [MESSAGE][PASSED] - The application at location: C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-15 12:30:13 - [TEST_STEP][PASSED] - click(findWindowsObject("LoginPage/Button - Maximize")): Click on element: Object Repository/LoginPage/Button - Maximize succesfully
+
+2022-09-15 12:30:14 - [MESSAGE][INFO] - Clicking on element: Object Repository/LoginPage/Button - Maximize
+
+2022-09-15 12:30:14 - [MESSAGE][PASSED] - Click on element: Object Repository/LoginPage/Button - Maximize succesfully
+
+2022-09-15 12:30:14 - [TEST_STEP][PASSED] - sendKeys(findWindowsObject("Window"), Keys.chord(CONTROL, SHIFT, "a")): Keys a are pressed
+
+2022-09-15 12:30:15 - [MESSAGE][PASSED] - Keys a are pressed
+
+2022-09-15 12:30:15 - [TEST_STEP][PASSED] - delay(65): Delayed 65 second(s)
+
+2022-09-15 12:31:20 - [MESSAGE][PASSED] - Delayed 65 second(s)
+
+2022-09-15 12:31:20 - [TEST_STEP][NOT_RUN] - getText(findWindowsObject("LoginPage/Textfield - Username", ["variable":""])): NOT_RUN: getText(findWindowsObject("LoginPage/Textfield - Username", ["variable":""]))
+
+2022-09-15 12:31:20 - [MESSAGE][NOT_RUN] - NOT_RUN: getText(findWindowsObject("LoginPage/Textfield - Username", ["variable":""]))
+
+2022-09-15 12:31:20 - [TEST_STEP][NOT_RUN] - verifyMatch(findWindowsObject("LoginPage/Textfield - Username"), "Kisum", false): NOT_RUN: verifyMatch(findWindowsObject("LoginPage/Textfield - Username"), "Kisum", false)
+
+2022-09-15 12:31:20 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyMatch(findWindowsObject("LoginPage/Textfield - Username"), "Kisum", false)
+
+2022-09-15 12:31:20 - [TEST_STEP][NOT_RUN] - sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord(CONTROL, SHIFT, "j")): NOT_RUN: sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord(CONTROL, SHIFT, "j"))
+
+2022-09-15 12:31:20 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord(CONTROL, SHIFT, "j"))
+
+2022-09-15 12:31:20 - [TEST_STEP][NOT_RUN] - sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord(ALT, F4)): NOT_RUN: sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord(ALT, F4))
+
+2022-09-15 12:31:20 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord(ALT, F4))
+
+2022-09-15 12:31:20 - [TEST_STEP][NOT_RUN] - sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord("Keys.CONTROL Keys.SHIFT Q")): NOT_RUN: sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord("Keys.CONTROL Keys.SHIFT Q"))
+
+2022-09-15 12:31:20 - [MESSAGE][NOT_RUN] - NOT_RUN: sendKeys(findWindowsObject("Object Repository/LoginPage/Window"), Keys.chord("Keys.CONTROL Keys.SHIFT Q"))
+
+2022-09-15 12:31:20 - [TEST_STEP][NOT_RUN] - getElementPosition(findWindowsObject("LoginPage/Textfield - Username")): NOT_RUN: getElementPosition(findWindowsObject("LoginPage/Textfield - Username"))
+
+2022-09-15 12:31:20 - [MESSAGE][NOT_RUN] - NOT_RUN: getElementPosition(findWindowsObject("LoginPage/Textfield - Username"))
+
+2022-09-15 12:31:20 - [TEST_STEP][NOT_RUN] - rightClick(findWindowsObject("LoginPage/Window")): NOT_RUN: rightClick(findWindowsObject("LoginPage/Window"))
+
+2022-09-15 12:31:20 - [MESSAGE][NOT_RUN] - NOT_RUN: rightClick(findWindowsObject("LoginPage/Window"))
+
+2022-09-15 12:31:20 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Window")): Search for element with locator: [Name="Cargo-BI"]
+
+2022-09-15 12:31:20 - [MESSAGE][PASSED] - Search for element with locator: [Name="Cargo-BI"]
+
+2022-09-15 12:31:20 - [TEST_STEP][PASSED] - findElement(findWindowsObject("TitleBar")): Search for element with locator: [Tag Name="TitleBar"]
+
+2022-09-15 12:31:20 - [MESSAGE][PASSED] - Search for element with locator: [Tag Name="TitleBar"]
+
+2022-09-15 12:31:21 - [TEST_STEP][PASSED] - findElement(findWindowsObject("MenuBar")): Search for element with locator: [Tag Name="MenuBar"]
+
+2022-09-15 12:31:21 - [MESSAGE][PASSED] - Search for element with locator: [Tag Name="MenuBar"]
+
+2022-09-15 12:31:21 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_WelcomeToCargoBI_Outer")): Search for element with locator: [XPATH="//Window/Custom[1]/Text[1]"]
+
+2022-09-15 12:31:21 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Text[1]"]
+
+2022-09-15 12:31:22 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_WelcomeToCargoBI_Inner")): Search for element with locator: [XPATH="//Window/Custom[1]/Text[1]/Text[1]"]
+
+2022-09-15 12:31:22 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Text[1]/Text[1]"]
+
+2022-09-15 12:31:22 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_Username_Outer")): Search for element with locator: [XPATH="//Window/Custom[1]/Text[2]"]
+
+2022-09-15 12:31:22 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Text[2]"]
+
+2022-09-15 12:31:23 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_Username_Inner")): Search for element with locator: [XPATH="//Window/Custom[1]/Text[2]/Text[1]"]
+
+2022-09-15 12:31:23 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Text[2]/Text[1]"]
+
+2022-09-15 12:31:23 - [TEST_STEP][PASSED] - findElement(findWindowsObject("ComboBox")): Search for element with locator: [Class Name="ComboBox"]
+
+2022-09-15 12:31:24 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="ComboBox"]
+
+2022-09-15 12:31:24 - [TEST_STEP][PASSED] - click(findWindowsObject("ComboBox")): Click on element: Object Repository/ComboBox succesfully
+
+2022-09-15 12:31:24 - [MESSAGE][INFO] - Clicking on element: Object Repository/ComboBox
+
+2022-09-15 12:31:24 - [MESSAGE][PASSED] - Click on element: Object Repository/ComboBox succesfully
+
+2022-09-15 12:31:24 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_Test")): Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[3]/Text[1]"]
+
+2022-09-15 12:31:24 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[3]/Text[1]"]
+
+2022-09-15 12:31:25 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_ADMethod")): Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[1]/Text[1]"]
+
+2022-09-15 12:31:25 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[1]/Text[1]"]
+
+2022-09-15 12:31:26 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_CWMethod")): Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[2]/Text[1]"]
+
+2022-09-15 12:31:26 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[2]/Text[1]"]
+
+2022-09-15 12:31:26 - [TEST_STEP][PASSED] - findElement(findWindowsObject("ListItem_ADMethod")): Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[1]"]
+
+2022-09-15 12:31:27 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[1]"]
+
+2022-09-15 12:31:27 - [TEST_STEP][PASSED] - findElement(findWindowsObject("ListItem_CWMethod")): Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[2]"]
+
+2022-09-15 12:31:27 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[2]"]
+
+2022-09-15 12:31:28 - [TEST_STEP][PASSED] - findElement(findWindowsObject("ListItem_Test")): Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[3]"]
+
+2022-09-15 12:31:28 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/ComboBox[1]/ListItem[3]"]
+
+2022-09-15 12:31:29 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_Password_Outer")): Search for element with locator: [XPATH="//Window/Custom[1]/Text[3]"]
+
+2022-09-15 12:31:29 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Text[3]"]
+
+2022-09-15 12:31:29 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_Password_Inner")): Search for element with locator: [XPATH="//Window/Custom[1]/Text[3]/Text[1]"]
+
+2022-09-15 12:31:30 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Text[3]/Text[1]"]
+
+2022-09-15 12:31:30 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Edit_Username")): Search for element with locator: [Class Name="TextBox"]
+
+2022-09-15 12:31:30 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="TextBox"]
+
+2022-09-15 12:31:30 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Edit_Password")): Search for element with locator: [Class Name="PasswordBox"]
+
+2022-09-15 12:31:31 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="PasswordBox"]
+
+2022-09-15 12:31:31 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Custom")): Search for element with locator: [Class Name="LoginScreen"]
+
+2022-09-15 12:31:31 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="LoginScreen"]
+
+2022-09-15 12:31:31 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Button_Login")): Search for element with locator: [Class Name="Button"]
+
+2022-09-15 12:31:31 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="Button"]
+
+2022-09-15 12:31:32 - [TEST_STEP][PASSED] - click(findWindowsObject("Button_Login")): Click on element: Object Repository/Button_Login succesfully
+
+2022-09-15 12:31:32 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button_Login
+
+2022-09-15 12:31:32 - [MESSAGE][PASSED] - Click on element: Object Repository/Button_Login succesfully
+
+2022-09-15 12:31:32 - [TEST_STEP][PASSED] - click(findWindowsObject("Button_Login")): Click on element: Object Repository/Button_Login succesfully
+
+2022-09-15 12:31:33 - [MESSAGE][INFO] - Clicking on element: Object Repository/Button_Login
+
+2022-09-15 12:31:33 - [MESSAGE][PASSED] - Click on element: Object Repository/Button_Login succesfully
+
+2022-09-15 12:31:33 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Text_LoginBox_LoginIsSuccessful")): Search for element with locator: [Name="Login successful"]
+
+2022-09-15 12:31:33 - [MESSAGE][PASSED] - Search for element with locator: [Name="Login successful"]
+
+2022-09-15 12:31:34 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Button_LoginBox_OK")): Search for element with locator: [Name="OK"]
+
+2022-09-15 12:31:34 - [MESSAGE][PASSED] - Search for element with locator: [Name="OK"]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-15 12:29:58 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/Crash_test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
