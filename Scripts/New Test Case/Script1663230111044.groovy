@@ -17,3 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+    '')
+
+Windows.click(findWindowsObject('Object Repository/LoginPage/Button - Maximize'))
+
+Windows.setText(findWindowsObject('Object Repository/LoginPage/Textfield - Username'), 'Kis')
+
+Windows.closeApplication()
+
