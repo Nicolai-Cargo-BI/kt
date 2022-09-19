@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-09-19 10:42:33,2022-09-19 10:43:58,1m - 25.452s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-09-19 10:42:33,2022-09-19 10:42:40,7.250s,PASSED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-19 10:42:34,2022-09-19 10:42:36,2.817s,PASSED
+delay(2),,,,2022-09-19 10:42:36,2022-09-19 10:42:38,2.059s,PASSED
+"click(findWindowsObject(""Object Repository/LoginPage/Button - Maximize""))",,,,2022-09-19 10:42:38,2022-09-19 10:42:39,0.576s,PASSED
+"setText(findWindowsObject(""Object Repository/LoginPage/Textfield - Username""), ""Kis"")",,,,2022-09-19 10:42:39,2022-09-19 10:42:40,1.203s,PASSED
+closeApplication(),,,,2022-09-19 10:42:40,2022-09-19 10:42:40,0.094s,PASSED
+,,,,,,,
+Test Cases/Crash_test,,,,2022-09-19 10:42:40,2022-09-19 10:43:58,1m - 17.666s,PASSED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-19 10:42:41,2022-09-19 10:42:42,1.239s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-09-19 10:42:42,2022-09-19 10:42:44,2.014s,PASSED
+"click(findWindowsObject(""LoginPage/Button - Maximize""))",,,,2022-09-19 10:42:44,2022-09-19 10:42:44,0.489s,PASSED
+"sendKeys(findWindowsObject(""Window""), Keys.chord(CONTROL, SHIFT, ""a""))",,,,2022-09-19 10:42:44,2022-09-19 10:42:45,0.428s,PASSED
+delay(65),,,,2022-09-19 10:42:45,2022-09-19 10:43:50,1m - 5.014s,PASSED
+"getText(findWindowsObject(""LoginPage/Textfield - Username"", [""variable"":""""]))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.004s,NOT_RUN
+"verifyMatch(findWindowsObject(""LoginPage/Textfield - Username""), ""Kisum"", false)",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.002s,NOT_RUN
+"sendKeys(findWindowsObject(""Object Repository/LoginPage/Window""), Keys.chord(CONTROL, SHIFT, ""j""))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.001s,NOT_RUN
+"sendKeys(findWindowsObject(""Object Repository/LoginPage/Window""), Keys.chord(ALT, F4))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.001s,NOT_RUN
+"sendKeys(findWindowsObject(""Object Repository/LoginPage/Window""), Keys.chord(""Keys.CONTROL Keys.SHIFT Q""))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.002s,NOT_RUN
+"getElementPosition(findWindowsObject(""LoginPage/Textfield - Username""))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.002s,NOT_RUN
+"rightClick(findWindowsObject(""LoginPage/Window""))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.002s,NOT_RUN
+"findElement(findWindowsObject(""Window""))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.154s,PASSED
+"findElement(findWindowsObject(""TitleBar""))",,,,2022-09-19 10:43:50,2022-09-19 10:43:50,0.300s,PASSED
+"findElement(findWindowsObject(""MenuBar""))",,,,2022-09-19 10:43:50,2022-09-19 10:43:51,0.297s,PASSED
+"findElement(findWindowsObject(""Text_WelcomeToCargoBI_Outer""))",,,,2022-09-19 10:43:51,2022-09-19 10:43:51,0.300s,PASSED
+"findElement(findWindowsObject(""Text_WelcomeToCargoBI_Inner""))",,,,2022-09-19 10:43:51,2022-09-19 10:43:51,0.303s,PASSED
+"findElement(findWindowsObject(""Text_Username_Outer""))",,,,2022-09-19 10:43:51,2022-09-19 10:43:52,0.311s,PASSED
+"findElement(findWindowsObject(""Text_Username_Inner""))",,,,2022-09-19 10:43:52,2022-09-19 10:43:52,0.316s,PASSED
+"findElement(findWindowsObject(""ComboBox""))",,,,2022-09-19 10:43:52,2022-09-19 10:43:52,0.175s,PASSED
+"click(findWindowsObject(""ComboBox""))",,,,2022-09-19 10:43:52,2022-09-19 10:43:52,0.422s,PASSED
+"findElement(findWindowsObject(""Text_Test""))",,,,2022-09-19 10:43:52,2022-09-19 10:43:53,0.382s,PASSED
+"findElement(findWindowsObject(""Text_ADMethod""))",,,,2022-09-19 10:43:53,2022-09-19 10:43:53,0.373s,PASSED
+"findElement(findWindowsObject(""Text_CWMethod""))",,,,2022-09-19 10:43:53,2022-09-19 10:43:54,0.384s,PASSED
+"findElement(findWindowsObject(""ListItem_ADMethod""))",,,,2022-09-19 10:43:54,2022-09-19 10:43:54,0.449s,PASSED
+"findElement(findWindowsObject(""ListItem_CWMethod""))",,,,2022-09-19 10:43:54,2022-09-19 10:43:54,0.400s,PASSED
+"findElement(findWindowsObject(""ListItem_Test""))",,,,2022-09-19 10:43:54,2022-09-19 10:43:55,0.431s,PASSED
+"findElement(findWindowsObject(""Text_Password_Outer""))",,,,2022-09-19 10:43:55,2022-09-19 10:43:55,0.432s,PASSED
+"findElement(findWindowsObject(""Text_Password_Inner""))",,,,2022-09-19 10:43:55,2022-09-19 10:43:56,0.479s,PASSED
+"findElement(findWindowsObject(""Edit_Username""))",,,,2022-09-19 10:43:56,2022-09-19 10:43:56,0.181s,PASSED
+"findElement(findWindowsObject(""Edit_Password""))",,,,2022-09-19 10:43:56,2022-09-19 10:43:56,0.208s,PASSED
+"findElement(findWindowsObject(""Custom""))",,,,2022-09-19 10:43:56,2022-09-19 10:43:56,0.146s,PASSED
+"findElement(findWindowsObject(""Button_Login""))",,,,2022-09-19 10:43:56,2022-09-19 10:43:56,0.185s,PASSED
+"click(findWindowsObject(""Button_Login""))",,,,2022-09-19 10:43:56,2022-09-19 10:43:57,0.447s,PASSED
+"click(findWindowsObject(""Button_Login""))",,,,2022-09-19 10:43:57,2022-09-19 10:43:57,0.481s,PASSED
+"findElement(findWindowsObject(""Text_LoginBox_LoginIsSuccessful""))",,,,2022-09-19 10:43:57,2022-09-19 10:43:58,0.378s,PASSED
+"findElement(findWindowsObject(""Button_LoginBox_OK""))",,,,2022-09-19 10:43:58,2022-09-19 10:43:58,0.206s,PASSED

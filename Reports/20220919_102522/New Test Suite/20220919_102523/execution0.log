@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-09-19T10:25:27</date>
+  <millis>1663575927915</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : test suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">0</property>
+  <property name="name">New Test Suite</property>
+  <property name="description"></property>
+  <property name="id">test suites/New Test Suite</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:27</date>
+  <millis>1663575927929</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Power - DESKTOP-B2LA5HP</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Power - DESKTOP-B2LA5HP</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:27</date>
+  <millis>1663575927929</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:27</date>
+  <millis>1663575927930</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.215</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.215</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:27</date>
+  <millis>1663575927932</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.4.1.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.4.1.208</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:28</date>
+  <millis>1663575928271</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/New Test Case</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/New Test Case</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/New Test Case</property>
+  <property name="source">C:\Users\Power\git\kt\Test Cases\New Test Case.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:28</date>
+  <millis>1663575928569</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplicationWithTitle(&amp;quot;C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:28</date>
+  <millis>1663575928726</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting application C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe on the local machine at address http://127.0.0.1:4723</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:28</date>
+  <millis>1663575928736</millis>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="desiredCapabilities">{}</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:29</date>
+  <millis>1663575929719</millis>
+  <sequence>14</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at New Test Case.run(New Test Case:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230111044.run(Script1663230111044.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at New Test Case.run(New Test Case:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+</property>
+  <property name="failed.exception.message">The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:29</date>
+  <millis>1663575929755</millis>
+  <sequence>19</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplicationWithTitle(&amp;quot;C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:29</date>
+  <millis>1663575929970</millis>
+  <sequence>24</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at New Test Case.run(New Test Case:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230111044.run(Script1663230111044.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:91)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at New Test Case.run(New Test Case:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	... 20 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230111044.run(Script1663230111044.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at New Test Case.run(New Test Case:20)
+	... 13 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at New Test Case.run(New Test Case:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230111044.run(Script1663230111044.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword</class>
+      <method>startApplicationWithTitle</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword</class>
+      <method>execute</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords</class>
+      <method>startApplicationWithTitle</method>
+      <line>1064</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>New Test Case</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>144</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1663575923825</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at New Test Case.run(New Test Case:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.message">The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 242 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:29</date>
+  <millis>1663575929984</millis>
+  <sequence>26</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/New Test Case</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: true,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:29</date>
+  <millis>1663575929999</millis>
+  <sequence>27</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Crash_test</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">0</property>
+  <property name="name">Test Cases/Crash_test</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Crash_test</property>
+  <property name="source">C:\Users\Power\git\kt\Test Cases\Crash_test.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930350</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplicationWithTitle(&amp;quot;C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930351</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting application C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe on the local machine at address http://127.0.0.1:4723</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930356</millis>
+  <sequence>31</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="desiredCapabilities">{}</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930517</millis>
+  <sequence>36</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Crash_test.run(Crash_test:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230110886.run(Script1663230110886.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Crash_test.run(Crash_test:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+</property>
+  <property name="failed.exception.message">The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930517</millis>
+  <sequence>41</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplicationWithTitle(&amp;quot;C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930772</millis>
+  <sequence>46</sequence>
+  <level>FAILED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Crash_test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Crash_test.run(Crash_test:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230110886.run(Script1663230110886.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:91)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Crash_test.run(Crash_test:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	... 20 more
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230110886.run(Script1663230110886.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:25:53&amp;apos;
+System info: host: &amp;apos;DESKTOP-B2LA5HP&amp;apos;, ip: &amp;apos;192.168.1.215&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_282&amp;apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&amp;lt;init&amp;gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&amp;lt;init&amp;gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&amp;lt;init&amp;gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&amp;lt;init&amp;gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Crash_test.run(Crash_test:20)
+	... 13 more
+</message>
+  <exception>
+    <message>com.kms.katalon.core.exception.StepFailedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver (Root cause: org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Please check the server log for more details. Original error: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:208)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Crash_test.run(Crash_test:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+Caused by: java.lang.reflect.InvocationTargetException
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Script1663230110886.run(Script1663230110886.groovy:20)
+	... 13 more
+Caused by: org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'DESKTOP-B2LA5HP', ip: '192.168.1.215', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	... 39 more
+)</message>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+      <line>50</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>stepFailed</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain</class>
+      <method>runKeyword</method>
+      <line>91</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword</class>
+      <method>startApplicationWithTitle</method>
+      <line>32</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword</class>
+      <method>execute</method>
+      <line>28</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.keyword.internal.KeywordExecutor</class>
+      <method>executeKeywordForPlatform</method>
+      <line>74</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords</class>
+      <method>startApplicationWithTitle</method>
+      <line>1064</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>Crash_test</class>
+      <method>run</method>
+      <line>20</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>run</method>
+      <line>194</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.ScriptEngine</class>
+      <method>runScriptAsRawText</method>
+      <line>119</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>runScript</method>
+      <line>448</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>doExecute</method>
+      <line>439</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>processExecutionPhase</method>
+      <line>418</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>accessMainPhase</method>
+      <line>410</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseExecutor</class>
+      <method>execute</method>
+      <line>285</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.common.CommonExecutor</class>
+      <method>accessTestCaseMainPhase</method>
+      <line>65</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>accessTestSuiteMainPhase</method>
+      <line>144</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestSuiteExecutor</class>
+      <method>execute</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain</class>
+      <method>startTestSuite</method>
+      <line>185</line>
+    </frame>
+    <frame>
+      <class>com.kms.katalon.core.main.TestCaseMain$startTestSuite$0</class>
+      <method>call</method>
+    </frame>
+    <frame>
+      <class>TempTestSuite1663575923825</class>
+      <method>run</method>
+      <line>36</line>
+    </frame>
+  </exception>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="failed.exception.stacktrace">org.openqa.selenium.WebDriverException: The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186)
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.windows.WindowsDriver.execute(WindowsDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at io.appium.java_client.DefaultGenericMobileDriver.&lt;init&gt;(DefaultGenericMobileDriver.java:38)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:84)
+	at io.appium.java_client.windows.WindowsDriver.&lt;init&gt;(WindowsDriver.java:38)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.newWindowsDriver(WindowsDriverFactory.java:194)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:112)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory.startApplication(WindowsDriverFactory.java:96)
+	at com.kms.katalon.core.windows.driver.WindowsDriverFactory$startApplication.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:33)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+	at com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+	at com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+	at com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+	at Crash_test.run(Crash_test:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1663575923825.run(TempTestSuite1663575923825.groovy:36)
+</property>
+  <property name="failed.exception.class">org.openqa.selenium.WebDriverException</property>
+  <property name="failed.exception.message">The system cannot find the file specified (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 140 milliseconds
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
+System info: host: &apos;DESKTOP-B2LA5HP&apos;, ip: &apos;192.168.1.215&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_282&apos;
+Driver info: driver.version: WindowsDriver</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930788</millis>
+  <sequence>48</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Crash_test</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">0</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: false,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: true,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-09-19T10:25:30</date>
+  <millis>1663575930788</millis>
+  <sequence>49</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:31</date>
+  <millis>1663575931079</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\Power\git\kt\Reports\20220919_102522\New Test Suite\20220919_102523...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:31</date>
+  <millis>1663575931158</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:31</date>
+  <millis>1663575931158</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\Power\git\kt\Reports\20220919_102522\New Test Suite\20220919_102523...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:31</date>
+  <millis>1663575931170</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:31</date>
+  <millis>1663575931463</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-19T10:25:31</date>
+  <millis>1663575931493</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : test suites/New Test Suite</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>
