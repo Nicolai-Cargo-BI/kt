@@ -20,11 +20,13 @@ import org.openqa.selenium.Keys as Keys
 Windows.startApplicationWithTitle('C:\\Users\\Power\\Desktop\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.delay(5)
+Windows.delay(3)
 
 Windows.click(findWindowsObject('Object Repository/LoginPage/Button - Maximize'))
 
 Windows.setText(findWindowsObject('Object Repository/LoginPage/Textfield - Username'), 'Kis')
+
+Windows.delay(3)
 
 Windows.closeApplication()
 
