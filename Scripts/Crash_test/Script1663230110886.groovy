@@ -93,3 +93,5 @@ Windows.findElement(findWindowsObject('Text_LoginBox_LoginIsSuccessful'))
 
 Windows.findElement(findWindowsObject('Button_LoginBox_OK'))
 
+Windows.click(findWindowsObject('Button_LoginBox_OK'))
+
