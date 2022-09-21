@@ -24,11 +24,11 @@ Windows.startApplicationWithTitle('C:\\Users\\Power\\Desktop\\Cargo-BI-Client\\C
 
 not_run: Windows.delay(5)
 
-Windows.click(findWindowsObject('MenuBar'))
-
 Windows.click(findWindowsObject('Button - Maximize'))
 
 Windows.setText(findWindowsObject('Object Repository/LoginPage/Textfield - Username'), 'Kis')
+
+Windows.delay(3)
 
 Windows.closeApplication()
 
