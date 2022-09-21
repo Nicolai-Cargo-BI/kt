@@ -82,5 +82,7 @@ Windows.findElement(findWindowsObject('Button_LoginBox_OK'))
 
 Windows.click(findWindowsObject('Button_LoginBox_OK'))
 
+Windows.delay(5)
+
 Windows.closeApplication()
 
