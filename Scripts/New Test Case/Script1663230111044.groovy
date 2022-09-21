@@ -26,6 +26,8 @@ not_run: Windows.delay(5)
 
 Windows.click(findWindowsObject('Button - Maximize'))
 
+Windows.click(findWindowsObject('Button - Maximize'))
+
 Windows.setText(findWindowsObject('Object Repository/LoginPage_Old/Textfield - Username'), 'Kis')
 
 Windows.delay(3)
