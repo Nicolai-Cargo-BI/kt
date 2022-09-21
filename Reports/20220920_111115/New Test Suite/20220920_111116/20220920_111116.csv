@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-09-20 11:11:20,2022-09-20 11:12:55,1m - 35.060s,PASSED
+,,,,,,,
+Test Cases/Crash_test,,,,2022-09-20 11:11:20,2022-09-20 11:12:47,1m - 26.044s,PASSED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-20 11:11:21,2022-09-20 11:11:24,2.924s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-09-20 11:11:24,2022-09-20 11:11:27,3.068s,PASSED
+"click(findWindowsObject(""LoginPage/Button - Maximize""))",,,,2022-09-20 11:11:27,2022-09-20 11:11:28,0.638s,PASSED
+"sendKeys(findWindowsObject(""Window""), Keys.chord(CONTROL, SHIFT, ""a""))",,,,2022-09-20 11:11:28,2022-09-20 11:11:28,0.439s,PASSED
+delay(70),,,,2022-09-20 11:11:28,2022-09-20 11:12:38,1m - 10.010s,PASSED
+"findElement(findWindowsObject(""Window""))",,,,2022-09-20 11:12:38,2022-09-20 11:12:38,0.138s,PASSED
+"findElement(findWindowsObject(""TitleBar""))",,,,2022-09-20 11:12:38,2022-09-20 11:12:39,0.316s,PASSED
+"findElement(findWindowsObject(""MenuBar""))",,,,2022-09-20 11:12:39,2022-09-20 11:12:39,0.298s,PASSED
+"findElement(findWindowsObject(""Text_WelcomeToCargoBI_Outer""))",,,,2022-09-20 11:12:39,2022-09-20 11:12:39,0.298s,PASSED
+"findElement(findWindowsObject(""Text_WelcomeToCargoBI_Inner""))",,,,2022-09-20 11:12:39,2022-09-20 11:12:39,0.301s,PASSED
+"findElement(findWindowsObject(""Text_Username_Outer""))",,,,2022-09-20 11:12:39,2022-09-20 11:12:40,0.301s,PASSED
+"findElement(findWindowsObject(""Text_Username_Inner""))",,,,2022-09-20 11:12:40,2022-09-20 11:12:40,0.300s,PASSED
+"findElement(findWindowsObject(""ComboBox""))",,,,2022-09-20 11:12:40,2022-09-20 11:12:40,0.177s,PASSED
+"click(findWindowsObject(""ComboBox""))",,,,2022-09-20 11:12:40,2022-09-20 11:12:41,0.436s,PASSED
+"findElement(findWindowsObject(""Text_Test""))",,,,2022-09-20 11:12:41,2022-09-20 11:12:41,0.392s,PASSED
+"findElement(findWindowsObject(""Text_ADMethod""))",,,,2022-09-20 11:12:41,2022-09-20 11:12:41,0.379s,PASSED
+"findElement(findWindowsObject(""Text_CWMethod""))",,,,2022-09-20 11:12:41,2022-09-20 11:12:42,0.395s,PASSED
+"findElement(findWindowsObject(""ListItem_ADMethod""))",,,,2022-09-20 11:12:42,2022-09-20 11:12:42,0.375s,PASSED
+"findElement(findWindowsObject(""ListItem_CWMethod""))",,,,2022-09-20 11:12:42,2022-09-20 11:12:43,0.377s,PASSED
+"findElement(findWindowsObject(""ListItem_Test""))",,,,2022-09-20 11:12:43,2022-09-20 11:12:43,0.379s,PASSED
+"findElement(findWindowsObject(""Text_Password_Outer""))",,,,2022-09-20 11:12:43,2022-09-20 11:12:43,0.363s,PASSED
+"findElement(findWindowsObject(""Text_Password_Inner""))",,,,2022-09-20 11:12:43,2022-09-20 11:12:44,0.393s,PASSED
+"findElement(findWindowsObject(""Edit_Username""))",,,,2022-09-20 11:12:44,2022-09-20 11:12:44,0.189s,PASSED
+"findElement(findWindowsObject(""Edit_Password""))",,,,2022-09-20 11:12:44,2022-09-20 11:12:44,0.174s,PASSED
+"findElement(findWindowsObject(""Custom""))",,,,2022-09-20 11:12:44,2022-09-20 11:12:44,0.140s,PASSED
+"findElement(findWindowsObject(""Button_Login""))",,,,2022-09-20 11:12:44,2022-09-20 11:12:44,0.209s,PASSED
+"click(findWindowsObject(""Button_Login""))",,,,2022-09-20 11:12:44,2022-09-20 11:12:45,0.506s,PASSED
+"click(findWindowsObject(""Button_Login""))",,,,2022-09-20 11:12:45,2022-09-20 11:12:45,0.455s,PASSED
+"findElement(findWindowsObject(""Text_LoginBox_LoginIsSuccessful""))",,,,2022-09-20 11:12:45,2022-09-20 11:12:46,0.455s,PASSED
+"findElement(findWindowsObject(""Button_LoginBox_OK""))",,,,2022-09-20 11:12:46,2022-09-20 11:12:46,0.155s,PASSED
+"click(findWindowsObject(""Button_LoginBox_OK""))",,,,2022-09-20 11:12:46,2022-09-20 11:12:46,0.411s,PASSED
+closeApplication(),,,,2022-09-20 11:12:46,2022-09-20 11:12:47,0.086s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-09-20 11:12:47,2022-09-20 11:12:55,8.498s,PASSED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-20 11:12:47,2022-09-20 11:12:48,0.926s,PASSED
+delay(5),,,,2022-09-20 11:12:48,2022-09-20 11:12:53,5.008s,PASSED
+"click(findWindowsObject(""Object Repository/LoginPage/Button - Maximize""))",,,,2022-09-20 11:12:53,2022-09-20 11:12:53,0.426s,PASSED
+"setText(findWindowsObject(""Object Repository/LoginPage/Textfield - Username""), ""Kis"")",,,,2022-09-20 11:12:53,2022-09-20 11:12:54,0.850s,PASSED
+delay(1),,,,2022-09-20 11:12:54,2022-09-20 11:12:55,1.005s,PASSED
+closeApplication(),,,,2022-09-20 11:12:55,2022-09-20 11:12:55,0.093s,PASSED

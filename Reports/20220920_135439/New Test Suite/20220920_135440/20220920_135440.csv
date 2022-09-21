@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-09-20 13:54:43,2022-09-20 13:54:51,8.315s,PASSED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-09-20 13:54:44,2022-09-20 13:54:51,7.718s,PASSED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-20 13:54:44,2022-09-20 13:54:47,2.865s,PASSED
+delay(5),,,,2022-09-20 13:54:47,2022-09-20 13:54:47,0.008s,NOT_RUN
+"click(findWindowsObject(""MenuBar""))",,,,2022-09-20 13:54:47,2022-09-20 13:54:49,1.703s,PASSED
+"click(findWindowsObject(""Button - Maximize""))",,,,2022-09-20 13:54:49,2022-09-20 13:54:49,0.460s,PASSED
+"setText(findWindowsObject(""Object Repository/LoginPage/Textfield - Username""), ""Kis"")",,,,2022-09-20 13:54:49,2022-09-20 13:54:50,0.969s,PASSED
+delay(1),,,,2022-09-20 13:54:50,2022-09-20 13:54:51,1.039s,PASSED
+closeApplication(),,,,2022-09-20 13:54:51,2022-09-20 13:54:51,0.097s,PASSED

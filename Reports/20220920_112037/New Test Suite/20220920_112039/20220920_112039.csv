@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-09-20 11:20:43,2022-09-20 11:24:44,4m - 1.593s,FAILED
+,,,,,,,
+Test Cases/Crash_test,,,,2022-09-20 11:24:34,2022-09-20 11:24:36,2.085s,FAILED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-20 11:24:34,2022-09-20 11:24:36,2.066s,FAILED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-09-20 11:24:42,2022-09-20 11:24:44,2.062s,FAILED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-20 11:24:42,2022-09-20 11:24:44,2.054s,FAILED

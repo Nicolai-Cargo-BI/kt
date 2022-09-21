@@ -20,28 +20,15 @@ import org.openqa.selenium.Keys as Keys
 Windows.startApplicationWithTitle('C:\\Users\\Power\\Desktop\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.delay(3, FailureHandling.STOP_ON_FAILURE)
+not_run: Windows.delay(4)
 
-Windows.click(findWindowsObject('LoginPage/Button - Maximize'))
+not_run: Windows.click(findWindowsObject('MenuBar'))
+
+Windows.click(findWindowsObject('Button - Maximize'))
 
 Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.CONTROL, Keys.SHIFT, 'a'))
 
 Windows.delay(65)
-
-not_run: Windows.getText(findWindowsObject('LoginPage/Textfield - Username', [('variable') : '']))
-
-not_run: Windows.verifyMatch(findWindowsObject('LoginPage/Textfield - Username'), 'Kisum', false)
-
-not_run: Windows.sendKeys(findWindowsObject('Object Repository/LoginPage/Window'), Keys.chord(Keys.CONTROL, Keys.SHIFT, 
-        'j'))
-
-not_run: Windows.sendKeys(findWindowsObject('Object Repository/LoginPage/Window'), Keys.chord(Keys.ALT, Keys.F4))
-
-not_run: Windows.sendKeys(findWindowsObject('Object Repository/LoginPage/Window'), Keys.chord('Keys.CONTROL Keys.SHIFT Q'))
-
-not_run: Windows.getElementPosition(findWindowsObject('LoginPage/Textfield - Username'))
-
-not_run: Windows.rightClick(findWindowsObject('LoginPage/Window'))
 
 Windows.findElement(findWindowsObject('Window'))
 

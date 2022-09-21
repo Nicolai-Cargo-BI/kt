@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-09-20 12:38:55,2022-09-20 12:43:31,4m - 35.964s,FAILED
+,,,,,,,
+Test Cases/Crash_test,,,,2022-09-20 12:42:07,2022-09-20 12:43:22,1m - 15.108s,FAILED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-20 12:42:07,2022-09-20 12:42:08,0.840s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-09-20 12:42:08,2022-09-20 12:42:11,3.003s,PASSED
+"click(findWindowsObject(""Custom""))",,,,2022-09-20 12:42:11,2022-09-20 12:42:11,0.379s,PASSED
+"click(findWindowsObject(""Button - Maximize""))",,,,2022-09-20 12:42:11,2022-09-20 12:42:12,0.408s,PASSED
+"sendKeys(findWindowsObject(""Window""), Keys.chord(CONTROL, SHIFT, ""a""))",,,,2022-09-20 12:42:12,2022-09-20 12:42:12,0.323s,PASSED
+delay(70),,,,2022-09-20 12:42:12,2022-09-20 12:43:22,1m - 10.017s,PASSED
+"findElement(findWindowsObject(""Window""))",,,,2022-09-20 12:43:22,2022-09-20 12:43:22,0.106s,FAILED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-09-20 12:43:22,2022-09-20 12:43:31,8.695s,PASSED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-20 12:43:22,2022-09-20 12:43:23,0.887s,PASSED
+delay(5),,,,2022-09-20 12:43:23,2022-09-20 12:43:28,5.008s,PASSED
+"click(findWindowsObject(""Custom""))",,,,2022-09-20 12:43:28,2022-09-20 12:43:29,0.429s,PASSED
+"click(findWindowsObject(""Button - Maximize""))",,,,2022-09-20 12:43:29,2022-09-20 12:43:29,0.434s,PASSED
+"setText(findWindowsObject(""Object Repository/LoginPage/Textfield - Username""), ""Kis"")",,,,2022-09-20 12:43:29,2022-09-20 12:43:30,0.753s,PASSED
+delay(1),,,,2022-09-20 12:43:30,2022-09-20 12:43:31,1.010s,PASSED
+closeApplication(),,,,2022-09-20 12:43:31,2022-09-20 12:43:31,0.056s,PASSED
