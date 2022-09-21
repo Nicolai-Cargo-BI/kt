@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+Windows.startApplicationWithTitle('C:\\Users\\Power\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
 Windows.click(findWindowsObject('Object Repository/Login_Page/Button_Maximize'))
@@ -56,9 +56,9 @@ Windows.click(findWindowsObject('Object Repository/Login_Page/Text_LeftBottomCor
 
 Windows.click(findWindowsObject('Object Repository/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner'))
 
-not_run: Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'p'))
+Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'p'))
 
-not_run: Windows.delay(60)
+Windows.delay(60)
 
 Windows.findElement(findWindowsObject('Object Repository/Login_Page/Button_Collapsed_One'))
 
