@@ -20,13 +20,13 @@ import org.openqa.selenium.Keys as Keys
 Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.click(findWindowsObject('LoginPage/Button - Maximize'))
+Windows.click(findWindowsObject('LoginPage_Old/Button - Maximize'))
 
-Windows.sendKeys(findWindowsObject('Object Repository/LoginPage/Window'), Keys.chord(Keys.CONTROL, Keys.SHIFT, 'l'))
+Windows.sendKeys(findWindowsObject('Object Repository/LoginPage_Old/Window'), Keys.chord(Keys.CONTROL, Keys.SHIFT, 'l'))
 
 Windows.delay(7)
 
-Windows.verifyMatch(findWindowsObject('LoginPage/Textfield - Username'), 'Kis', true)
+Windows.verifyMatch(findWindowsObject('LoginPage_Old/Textfield - Username'), 'Kis', true)
 
 Windows.closeApplication()
 
