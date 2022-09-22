@@ -23,7 +23,7 @@ not_run: Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\sou
 Windows.startApplicationWithTitle('C:\\Users\\Power\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Button_Maximize'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
 Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Button_Collapsed_One'))
 
@@ -102,4 +102,6 @@ Windows.findElement(findWindowsObject('CargoBI/Login_Page/Button_Login'))
 Windows.findElement(findWindowsObject('CargoBI/Login_Page/Text_Login'))
 
 Windows.click(findWindowsObject('CargoBI/Login_Page/Button_Login'))
+
+Windows.click(findWindowsObject('CargoBI/Misc/Button_Close'))
 

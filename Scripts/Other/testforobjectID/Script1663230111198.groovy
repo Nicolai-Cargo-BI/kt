@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.click(findWindowsObject('Object Repository/Button_Close'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Close'))
 
 Windows.click(findWindowsObject('Object Repository/Text'))
 

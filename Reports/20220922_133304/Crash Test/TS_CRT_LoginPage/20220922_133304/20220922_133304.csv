@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_CRT_LoginPage,,,,2022-09-22 13:33:07,2022-09-22 13:34:32,1m - 24.622s,PASSED
+,,,,,,,
+Test Cases/Crash Test/TC_CRT_LoginPage,,,,2022-09-22 13:33:07,2022-09-22 13:34:32,1m - 24.313s,PASSED
+"startApplicationWithTitle(""C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-22 13:33:08,2022-09-22 13:33:08,0.004s,NOT_RUN
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-22 13:33:08,2022-09-22 13:33:10,2.088s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Misc/Button_Maximize""))",,,,2022-09-22 13:33:10,2022-09-22 13:33:11,0.599s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Button_Collapsed_One""))",,,,2022-09-22 13:33:11,2022-09-22 13:33:11,0.711s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Image_Collapsed_One""))",,,,2022-09-22 13:33:11,2022-09-22 13:33:12,1.233s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Button_Collapsed_Two""))",,,,2022-09-22 13:33:12,2022-09-22 13:33:14,1.208s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Image_Collapsed_Two""))",,,,2022-09-22 13:33:14,2022-09-22 13:33:15,1.188s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Button_Collapsed_Three""))",,,,2022-09-22 13:33:15,2022-09-22 13:33:16,1.203s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Text_Collapsed_One""))",,,,2022-09-22 13:33:16,2022-09-22 13:33:17,1.195s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One""))",,,,2022-09-22 13:33:17,2022-09-22 13:33:18,1.010s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Edit_Collapsed_One""))",,,,2022-09-22 13:33:18,2022-09-22 13:33:19,1.180s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Custom""))",,,,2022-09-22 13:33:19,2022-09-22 13:33:20,0.409s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Text_WelcomeTo""))",,,,2022-09-22 13:33:20,2022-09-22 13:33:20,0.453s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Text_CargoBI""))",,,,2022-09-22 13:33:20,2022-09-22 13:33:21,0.455s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Image_Username""))",,,,2022-09-22 13:33:21,2022-09-22 13:33:21,0.707s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Edit_Username""))",,,,2022-09-22 13:33:21,2022-09-22 13:33:22,0.707s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Image_Password""))",,,,2022-09-22 13:33:22,2022-09-22 13:33:23,0.640s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Edit_Password""))",,,,2022-09-22 13:33:23,2022-09-22 13:33:23,0.501s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer""))",,,,2022-09-22 13:33:23,2022-09-22 13:33:24,0.423s,PASSED
+"click(findWindowsObject(""Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner""))",,,,2022-09-22 13:33:24,2022-09-22 13:33:25,1.163s,PASSED
+"sendKeys(findWindowsObject(""Other/Window""), Keys.chord(SHIFT, CONTROL, ""p""))",,,,2022-09-22 13:33:25,2022-09-22 13:33:25,0.358s,PASSED
+delay(60),,,,2022-09-22 13:33:25,2022-09-22 13:34:25,1m - 0.049s,PASSED
+"findElement(findWindowsObject(""Object Repository/CargoBI/Login_Page/Button_Collapsed_One""))",,,,2022-09-22 13:34:25,2022-09-22 13:34:26,0.388s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Button_Collapsed_Three""))",,,,2022-09-22 13:34:26,2022-09-22 13:34:26,0.378s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Button_Collapsed_Two""))",,,,2022-09-22 13:34:26,2022-09-22 13:34:26,0.363s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/ComboBox_Collapsed_One""))",,,,2022-09-22 13:34:26,2022-09-22 13:34:27,0.192s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Custom""))",,,,2022-09-22 13:34:27,2022-09-22 13:34:27,0.187s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Edit_Collapsed_One""))",,,,2022-09-22 13:34:27,2022-09-22 13:34:27,0.365s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Edit_Password""))",,,,2022-09-22 13:34:27,2022-09-22 13:34:27,0.189s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Edit_Username""))",,,,2022-09-22 13:34:27,2022-09-22 13:34:28,0.358s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Image_Collapsed_One""))",,,,2022-09-22 13:34:28,2022-09-22 13:34:28,0.331s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Image_Collapsed_Two""))",,,,2022-09-22 13:34:28,2022-09-22 13:34:28,0.353s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Image_Password""))",,,,2022-09-22 13:34:28,2022-09-22 13:34:29,0.392s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Image_Username""))",,,,2022-09-22 13:34:29,2022-09-22 13:34:29,0.362s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Text_CargoBI""))",,,,2022-09-22 13:34:29,2022-09-22 13:34:29,0.235s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Text_Collapsed_One""))",,,,2022-09-22 13:34:29,2022-09-22 13:34:30,0.317s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner""))",,,,2022-09-22 13:34:30,2022-09-22 13:34:30,0.331s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer""))",,,,2022-09-22 13:34:30,2022-09-22 13:34:30,0.172s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Text_WelcomeTo""))",,,,2022-09-22 13:34:30,2022-09-22 13:34:30,0.188s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Button_Login""))",,,,2022-09-22 13:34:30,2022-09-22 13:34:31,0.348s,PASSED
+"findElement(findWindowsObject(""CargoBI/Login_Page/Text_Login""))",,,,2022-09-22 13:34:31,2022-09-22 13:34:31,0.346s,PASSED
+"click(findWindowsObject(""CargoBI/Login_Page/Button_Login""))",,,,2022-09-22 13:34:31,2022-09-22 13:34:32,0.574s,PASSED

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_CRT_LoginPage" time="84.622" tests="1" failures="0" errors="0">
+   <testsuite name="TS_CRT_LoginPage" tests="1" failures="0" errors="0" time="84.622" skipped="0" timestamp="2022-09-22 13:33:07" hostname="Power - DESKTOP-B2LA5HP" id="Test Suites/Crash Test/TS_CRT_LoginPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Power\\git\\kt\\Reports\\20220922_133304\\Crash Test\\TS_CRT_LoginPage\\20220922_133304"/>
+         <property name="logFiles" value="C:\\Users\\Power\\git\\kt\\Reports\\20220922_133304\\Crash Test\\TS_CRT_LoginPage\\20220922_133304\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Power - DESKTOP-B2LA5HP"/>
+         <property name="hostAddress" value="192.168.1.215"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/Crash Test/TC_CRT_LoginPage" time="84.313" classname="Test Cases/Crash Test/TC_CRT_LoginPage" status="PASSED">
+         <system-out><![CDATA[2022-09-22 13:33:07 - [TEST_CASE][PASSED] - Test Cases/Crash Test/TC_CRT_LoginPage: Test Cases/Crash Test/TC_CRT_LoginPage
+
+2022-09-22 13:33:08 - [TEST_STEP][NOT_RUN] - startApplicationWithTitle("C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe", ""): NOT_RUN: startApplicationWithTitle("C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe", "")
+
+2022-09-22 13:33:08 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplicationWithTitle("C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe", "")
+
+2022-09-22 13:33:08 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe", ""): The application at location: C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-22 13:33:08 - [MESSAGE][INFO] - Starting application C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe on the local machine at address http://127.0.0.1:4723
+
+2022-09-22 13:33:10 - [MESSAGE][PASSED] - The application at location: C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-22 13:33:10 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Misc/Button_Maximize")): Click on element: Object Repository/CargoBI/Misc/Button_Maximize succesfully
+
+2022-09-22 13:33:10 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Misc/Button_Maximize
+
+2022-09-22 13:33:11 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Misc/Button_Maximize succesfully
+
+2022-09-22 13:33:11 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Button_Collapsed_One")): Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_One succesfully
+
+2022-09-22 13:33:11 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_One
+
+2022-09-22 13:33:11 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_One succesfully
+
+2022-09-22 13:33:11 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Image_Collapsed_One")): Click on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_One succesfully
+
+2022-09-22 13:33:12 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_One
+
+2022-09-22 13:33:12 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_One succesfully
+
+2022-09-22 13:33:12 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Button_Collapsed_Two")): Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Two succesfully
+
+2022-09-22 13:33:13 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Two
+
+2022-09-22 13:33:14 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Two succesfully
+
+2022-09-22 13:33:14 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Image_Collapsed_Two")): Click on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_Two succesfully
+
+2022-09-22 13:33:14 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_Two
+
+2022-09-22 13:33:15 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_Two succesfully
+
+2022-09-22 13:33:15 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Button_Collapsed_Three")): Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Three succesfully
+
+2022-09-22 13:33:15 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Three
+
+2022-09-22 13:33:16 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Three succesfully
+
+2022-09-22 13:33:16 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Text_Collapsed_One")): Click on element: Object Repository/CargoBI/Login_Page/Text_Collapsed_One succesfully
+
+2022-09-22 13:33:16 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Text_Collapsed_One
+
+2022-09-22 13:33:17 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Text_Collapsed_One succesfully
+
+2022-09-22 13:33:17 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One")): Click on element: Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One succesfully
+
+2022-09-22 13:33:17 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One
+
+2022-09-22 13:33:18 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One succesfully
+
+2022-09-22 13:33:18 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Edit_Collapsed_One")): Click on element: Object Repository/CargoBI/Login_Page/Edit_Collapsed_One succesfully
+
+2022-09-22 13:33:19 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Edit_Collapsed_One
+
+2022-09-22 13:33:19 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Edit_Collapsed_One succesfully
+
+2022-09-22 13:33:19 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Custom")): Click on element: Object Repository/CargoBI/Login_Page/Custom succesfully
+
+2022-09-22 13:33:20 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Custom
+
+2022-09-22 13:33:20 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Custom succesfully
+
+2022-09-22 13:33:20 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Text_WelcomeTo")): Click on element: Object Repository/CargoBI/Login_Page/Text_WelcomeTo succesfully
+
+2022-09-22 13:33:20 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Text_WelcomeTo
+
+2022-09-22 13:33:20 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Text_WelcomeTo succesfully
+
+2022-09-22 13:33:20 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Text_CargoBI")): Click on element: Object Repository/CargoBI/Login_Page/Text_CargoBI succesfully
+
+2022-09-22 13:33:21 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Text_CargoBI
+
+2022-09-22 13:33:21 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Text_CargoBI succesfully
+
+2022-09-22 13:33:21 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Image_Username")): Click on element: Object Repository/CargoBI/Login_Page/Image_Username succesfully
+
+2022-09-22 13:33:21 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Image_Username
+
+2022-09-22 13:33:21 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Image_Username succesfully
+
+2022-09-22 13:33:21 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Edit_Username")): Click on element: Object Repository/CargoBI/Login_Page/Edit_Username succesfully
+
+2022-09-22 13:33:22 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Edit_Username
+
+2022-09-22 13:33:22 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Edit_Username succesfully
+
+2022-09-22 13:33:22 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Image_Password")): Click on element: Object Repository/CargoBI/Login_Page/Image_Password succesfully
+
+2022-09-22 13:33:23 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Image_Password
+
+2022-09-22 13:33:23 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Image_Password succesfully
+
+2022-09-22 13:33:23 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Edit_Password")): Click on element: Object Repository/CargoBI/Login_Page/Edit_Password succesfully
+
+2022-09-22 13:33:23 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Edit_Password
+
+2022-09-22 13:33:23 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Edit_Password succesfully
+
+2022-09-22 13:33:23 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer")): Click on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer succesfully
+
+2022-09-22 13:33:23 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer
+
+2022-09-22 13:33:24 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer succesfully
+
+2022-09-22 13:33:24 - [TEST_STEP][PASSED] - click(findWindowsObject("Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner")): Click on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner succesfully
+
+2022-09-22 13:33:24 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner
+
+2022-09-22 13:33:25 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner succesfully
+
+2022-09-22 13:33:25 - [TEST_STEP][PASSED] - sendKeys(findWindowsObject("Other/Window"), Keys.chord(SHIFT, CONTROL, "p")): Keys p are pressed
+
+2022-09-22 13:33:25 - [MESSAGE][PASSED] - Keys p are pressed
+
+2022-09-22 13:33:25 - [TEST_STEP][PASSED] - delay(60): Delayed 60 second(s)
+
+2022-09-22 13:34:25 - [MESSAGE][PASSED] - Delayed 60 second(s)
+
+2022-09-22 13:34:25 - [TEST_STEP][PASSED] - findElement(findWindowsObject("Object Repository/CargoBI/Login_Page/Button_Collapsed_One")): Search for element with locator: [XPATH="//Window/Button[1]"]
+
+2022-09-22 13:34:25 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Button[1]"]
+
+2022-09-22 13:34:26 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Button_Collapsed_Three")): Search for element with locator: [XPATH="//Window/Button[4]"]
+
+2022-09-22 13:34:26 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Button[4]"]
+
+2022-09-22 13:34:26 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Button_Collapsed_Two")): Search for element with locator: [XPATH="//Window/Button[2]"]
+
+2022-09-22 13:34:26 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Button[2]"]
+
+2022-09-22 13:34:26 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/ComboBox_Collapsed_One")): Search for element with locator: [Class Name="ComboBox"]
+
+2022-09-22 13:34:27 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="ComboBox"]
+
+2022-09-22 13:34:27 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Custom")): Search for element with locator: [Class Name="LoginScreen"]
+
+2022-09-22 13:34:27 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="LoginScreen"]
+
+2022-09-22 13:34:27 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Edit_Collapsed_One")): Search for element with locator: [XPATH="//Window/ComboBox[1]/Edit[1]"]
+
+2022-09-22 13:34:27 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/ComboBox[1]/Edit[1]"]
+
+2022-09-22 13:34:27 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Edit_Password")): Search for element with locator: [Class Name="PasswordBox"]
+
+2022-09-22 13:34:27 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="PasswordBox"]
+
+2022-09-22 13:34:27 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Edit_Username")): Search for element with locator: [XPATH="//Window/Custom[1]/Edit[1]"]
+
+2022-09-22 13:34:27 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Edit[1]"]
+
+2022-09-22 13:34:28 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Image_Collapsed_One")): Search for element with locator: [XPATH="//Window/Button[1]/Image[1]"]
+
+2022-09-22 13:34:28 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Button[1]/Image[1]"]
+
+2022-09-22 13:34:28 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Image_Collapsed_Two")): Search for element with locator: [XPATH="//Window/Button[2]/Image[1]"]
+
+2022-09-22 13:34:28 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Button[2]/Image[1]"]
+
+2022-09-22 13:34:28 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Image_Password")): Search for element with locator: [XPATH="//Window/Custom[1]/Image[2]"]
+
+2022-09-22 13:34:28 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Image[2]"]
+
+2022-09-22 13:34:29 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Image_Username")): Search for element with locator: [XPATH="//Window/Custom[1]/Image[1]"]
+
+2022-09-22 13:34:29 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Image[1]"]
+
+2022-09-22 13:34:29 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Text_CargoBI")): Search for element with locator: [Name="CARGO BI"]
+
+2022-09-22 13:34:29 - [MESSAGE][PASSED] - Search for element with locator: [Name="CARGO BI"]
+
+2022-09-22 13:34:29 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Text_Collapsed_One")): Search for element with locator: [XPATH="//Window/Button[4]/Text[1]"]
+
+2022-09-22 13:34:29 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Button[4]/Text[1]"]
+
+2022-09-22 13:34:30 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner")): Search for element with locator: [XPATH="//Window/Text[1]/Text[1]"]
+
+2022-09-22 13:34:30 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Text[1]/Text[1]"]
+
+2022-09-22 13:34:30 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer")): Search for element with locator: [Class Name="Text"]
+
+2022-09-22 13:34:30 - [MESSAGE][PASSED] - Search for element with locator: [Class Name="Text"]
+
+2022-09-22 13:34:30 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Text_WelcomeTo")): Search for element with locator: [Name="Welcome to"]
+
+2022-09-22 13:34:30 - [MESSAGE][PASSED] - Search for element with locator: [Name="Welcome to"]
+
+2022-09-22 13:34:30 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Button_Login")): Search for element with locator: [XPATH="//Window/Custom[1]/Button[1]"]
+
+2022-09-22 13:34:30 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Button[1]"]
+
+2022-09-22 13:34:31 - [TEST_STEP][PASSED] - findElement(findWindowsObject("CargoBI/Login_Page/Text_Login")): Search for element with locator: [XPATH="//Window/Custom[1]/Button[1]/Text[1]"]
+
+2022-09-22 13:34:31 - [MESSAGE][PASSED] - Search for element with locator: [XPATH="//Window/Custom[1]/Button[1]/Text[1]"]
+
+2022-09-22 13:34:31 - [TEST_STEP][PASSED] - click(findWindowsObject("CargoBI/Login_Page/Button_Login")): Click on element: Object Repository/CargoBI/Login_Page/Button_Login succesfully
+
+2022-09-22 13:34:31 - [MESSAGE][INFO] - Clicking on element: Object Repository/CargoBI/Login_Page/Button_Login
+
+2022-09-22 13:34:32 - [MESSAGE][PASSED] - Click on element: Object Repository/CargoBI/Login_Page/Button_Login succesfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-22 13:33:07 - [TEST_SUITE][PASSED] - TS_CRT_LoginPage: Test Cases/Crash Test/TC_CRT_LoginPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

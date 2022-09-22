@@ -1,0 +1,2704 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-09-22T13:33:07</date>
+  <millis>1663846387564</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Crash Test/TS_CRT_LoginPage</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="rerunTestFailImmediately">true</property>
+  <property name="retryCount">3</property>
+  <property name="name">TS_CRT_LoginPage</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Crash Test/TS_CRT_LoginPage</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:07</date>
+  <millis>1663846387579</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Power - DESKTOP-B2LA5HP</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostName">Power - DESKTOP-B2LA5HP</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:07</date>
+  <millis>1663846387579</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 10 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:07</date>
+  <millis>1663846387580</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 192.168.1.215</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="hostAddress">192.168.1.215</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:07</date>
+  <millis>1663846387580</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 8.4.1.208</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="katalonVersion">8.4.1.208</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:07</date>
+  <millis>1663846387873</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Crash Test/TC_CRT_LoginPage</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="remainingRetryCount">3</property>
+  <property name="name">Test Cases/Crash Test/TC_CRT_LoginPage</property>
+  <property name="description"></property>
+  <property name="iteration"></property>
+  <property name="id">Test Cases/Crash Test/TC_CRT_LoginPage</property>
+  <property name="source">C:\Users\Power\git\kt\Test Cases\Crash Test\TC_CRT_LoginPage.tc</property>
+  <property name="tag"></property>
+  <property name="isOptional">false</property>
+  <property name="currentRetryCount">0</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:08</date>
+  <millis>1663846388314</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplicationWithTitle(&amp;quot;C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">20</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:08</date>
+  <millis>1663846388316</millis>
+  <sequence>8</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: startApplicationWithTitle(&amp;quot;C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:08</date>
+  <millis>1663846388318</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplicationWithTitle(&amp;quot;C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:08</date>
+  <millis>1663846388318</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplicationWithTitle(&amp;quot;C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">23</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:08</date>
+  <millis>1663846388491</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting application C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe on the local machine at address http://127.0.0.1:4723</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:08</date>
+  <millis>1663846388499</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>desiredCapabilities = {}</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="desiredCapabilities">{}</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:10</date>
+  <millis>1663846390404</millis>
+  <sequence>15</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>The application at location: C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy:34)
+com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword$_startApplicationWithTitle_closure1.doCall(StartApplicationWithTitleKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.startApplicationWithTitle(StartApplicationWithTitleKeyword.groovy:32)
+com.kms.katalon.core.windows.keyword.builtin.StartApplicationWithTitleKeyword.execute(StartApplicationWithTitleKeyword.groovy:28)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.startApplicationWithTitle(WindowsBuiltinKeywords.java:1064)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$startApplicationWithTitle.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:23)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:10</date>
+  <millis>1663846390406</millis>
+  <sequence>16</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplicationWithTitle(&amp;quot;C:\Users\Power\Desktop\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe&amp;quot;, &amp;quot;&amp;quot;)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:10</date>
+  <millis>1663846390407</millis>
+  <sequence>17</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Misc/Button_Maximize&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">26</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:10</date>
+  <millis>1663846390721</millis>
+  <sequence>19</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Misc/Button_Maximize</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:11</date>
+  <millis>1663846391000</millis>
+  <sequence>21</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Misc/Button_Maximize succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:26)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:11</date>
+  <millis>1663846391006</millis>
+  <sequence>22</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Misc/Button_Maximize&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:11</date>
+  <millis>1663846391006</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">28</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:11</date>
+  <millis>1663846391425</millis>
+  <sequence>25</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_One</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:11</date>
+  <millis>1663846391715</millis>
+  <sequence>27</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_One succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:28)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:11</date>
+  <millis>1663846391717</millis>
+  <sequence>28</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:11</date>
+  <millis>1663846391718</millis>
+  <sequence>29</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">30</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:12</date>
+  <millis>1663846392105</millis>
+  <sequence>31</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_One</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:12</date>
+  <millis>1663846392949</millis>
+  <sequence>33</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_One succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:30)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:12</date>
+  <millis>1663846392951</millis>
+  <sequence>34</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:12</date>
+  <millis>1663846392951</millis>
+  <sequence>35</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">32</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:13</date>
+  <millis>1663846393320</millis>
+  <sequence>37</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Two</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:14</date>
+  <millis>1663846394157</millis>
+  <sequence>39</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Two succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:32)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:14</date>
+  <millis>1663846394159</millis>
+  <sequence>40</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:14</date>
+  <millis>1663846394159</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">34</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:14</date>
+  <millis>1663846394514</millis>
+  <sequence>43</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_Two</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:15</date>
+  <millis>1663846395345</millis>
+  <sequence>45</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Image_Collapsed_Two succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:34)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:15</date>
+  <millis>1663846395347</millis>
+  <sequence>46</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:15</date>
+  <millis>1663846395348</millis>
+  <sequence>47</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_Three&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">36</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:15</date>
+  <millis>1663846395706</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Three</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:16</date>
+  <millis>1663846396549</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Button_Collapsed_Three succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:36)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:16</date>
+  <millis>1663846396551</millis>
+  <sequence>52</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_Three&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:16</date>
+  <millis>1663846396551</millis>
+  <sequence>53</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">38</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:16</date>
+  <millis>1663846396922</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Text_Collapsed_One</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:17</date>
+  <millis>1663846397745</millis>
+  <sequence>57</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Text_Collapsed_One succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:38)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:17</date>
+  <millis>1663846397746</millis>
+  <sequence>58</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:17</date>
+  <millis>1663846397748</millis>
+  <sequence>59</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">40</property>
+  <property name="stepIndex">10</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:17</date>
+  <millis>1663846397907</millis>
+  <sequence>61</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:18</date>
+  <millis>1663846398755</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:40)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:18</date>
+  <millis>1663846398758</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:18</date>
+  <millis>1663846398758</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Edit_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">42</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:19</date>
+  <millis>1663846399110</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Edit_Collapsed_One</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:19</date>
+  <millis>1663846399936</millis>
+  <sequence>69</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Edit_Collapsed_One succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:42)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:19</date>
+  <millis>1663846399938</millis>
+  <sequence>70</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Edit_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:19</date>
+  <millis>1663846399939</millis>
+  <sequence>71</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Custom&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">44</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400094</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Custom</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400345</millis>
+  <sequence>75</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Custom succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:44)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400348</millis>
+  <sequence>76</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Custom&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400349</millis>
+  <sequence>77</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_WelcomeTo&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">46</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400546</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Text_WelcomeTo</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400801</millis>
+  <sequence>81</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Text_WelcomeTo succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:46)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400802</millis>
+  <sequence>82</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_WelcomeTo&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:20</date>
+  <millis>1663846400803</millis>
+  <sequence>83</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_CargoBI&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">48</property>
+  <property name="stepIndex">14</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401002</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Text_CargoBI</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401257</millis>
+  <sequence>87</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Text_CargoBI succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:48)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401258</millis>
+  <sequence>88</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_CargoBI&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401258</millis>
+  <sequence>89</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">50</property>
+  <property name="stepIndex">15</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401712</millis>
+  <sequence>91</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Image_Username</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401963</millis>
+  <sequence>93</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Image_Username succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:50)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401965</millis>
+  <sequence>94</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:21</date>
+  <millis>1663846401965</millis>
+  <sequence>95</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Edit_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">52</property>
+  <property name="stepIndex">16</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:22</date>
+  <millis>1663846402420</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Edit_Username</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:22</date>
+  <millis>1663846402671</millis>
+  <sequence>99</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Edit_Username succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:52)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:22</date>
+  <millis>1663846402672</millis>
+  <sequence>100</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Edit_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:22</date>
+  <millis>1663846402673</millis>
+  <sequence>101</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">54</property>
+  <property name="stepIndex">17</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403060</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Image_Password</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403312</millis>
+  <sequence>105</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Image_Password succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:54)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403313</millis>
+  <sequence>106</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Image_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403314</millis>
+  <sequence>107</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Edit_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">56</property>
+  <property name="stepIndex">18</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403514</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Edit_Password</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403814</millis>
+  <sequence>111</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Edit_Password succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:56)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403815</millis>
+  <sequence>112</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Edit_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403816</millis>
+  <sequence>113</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">58</property>
+  <property name="stepIndex">19</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:23</date>
+  <millis>1663846403987</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:24</date>
+  <millis>1663846404237</millis>
+  <sequence>117</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:58)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:24</date>
+  <millis>1663846404239</millis>
+  <sequence>118</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:24</date>
+  <millis>1663846404239</millis>
+  <sequence>119</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">60</property>
+  <property name="stepIndex">20</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:24</date>
+  <millis>1663846404593</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:25</date>
+  <millis>1663846405401</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:60)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:25</date>
+  <millis>1663846405402</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:25</date>
+  <millis>1663846405403</millis>
+  <sequence>125</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : sendKeys(findWindowsObject(&amp;quot;Other/Window&amp;quot;), Keys.chord(SHIFT, CONTROL, &amp;quot;p&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">62</property>
+  <property name="stepIndex">21</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:25</date>
+  <millis>1663846405760</millis>
+  <sequence>128</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Keys p are pressed</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy:41)
+com.kms.katalon.core.windows.keyword.builtin.SendKeysKeyword$_sendKeys_closure1.doCall(SendKeysKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.SendKeysKeyword.sendKeys(SendKeysKeyword.groovy:34)
+com.kms.katalon.core.windows.keyword.builtin.SendKeysKeyword$sendKeys.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.SendKeysKeyword.execute(SendKeysKeyword.groovy:30)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.sendKeys(WindowsBuiltinKeywords.java:695)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$sendKeys$1.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:62)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:33:25</date>
+  <millis>1663846405761</millis>
+  <sequence>129</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : sendKeys(findWindowsObject(&amp;quot;Other/Window&amp;quot;), Keys.chord(SHIFT, CONTROL, &amp;quot;p&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:33:25</date>
+  <millis>1663846405762</millis>
+  <sequence>130</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : delay(60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">64</property>
+  <property name="stepIndex">22</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:25</date>
+  <millis>1663846465810</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 60 second(s)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.builtin.DelayKeyword.delay</property>
+  <property name="testops-execution-stacktrace"></property>
+</record>
+<record>
+  <date>2022-09-22T13:34:25</date>
+  <millis>1663846465811</millis>
+  <sequence>133</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : delay(60)</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:25</date>
+  <millis>1663846465812</millis>
+  <sequence>134</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">66</property>
+  <property name="stepIndex">23</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:25</date>
+  <millis>1663846465884</millis>
+  <sequence>136</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Button[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:66)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466200</millis>
+  <sequence>138</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;Object Repository/CargoBI/Login_Page/Button_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466201</millis>
+  <sequence>139</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Collapsed_Three&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">68</property>
+  <property name="stepIndex">24</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466266</millis>
+  <sequence>141</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Button[4]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:68)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466579</millis>
+  <sequence>143</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Collapsed_Three&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466579</millis>
+  <sequence>144</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">70</property>
+  <property name="stepIndex">25</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466633</millis>
+  <sequence>146</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Button[2]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:70)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466942</millis>
+  <sequence>148</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:26</date>
+  <millis>1663846466942</millis>
+  <sequence>149</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/ComboBox_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">72</property>
+  <property name="stepIndex">26</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467006</millis>
+  <sequence>151</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [Class Name=&amp;quot;ComboBox&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:72)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467134</millis>
+  <sequence>153</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/ComboBox_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467134</millis>
+  <sequence>154</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Custom&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">74</property>
+  <property name="stepIndex">27</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467200</millis>
+  <sequence>156</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [Class Name=&amp;quot;LoginScreen&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:74)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467321</millis>
+  <sequence>158</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Custom&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467322</millis>
+  <sequence>159</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Edit_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">76</property>
+  <property name="stepIndex">28</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467389</millis>
+  <sequence>161</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/ComboBox[1]/Edit[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:76)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467687</millis>
+  <sequence>163</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Edit_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467687</millis>
+  <sequence>164</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Edit_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">78</property>
+  <property name="stepIndex">29</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467732</millis>
+  <sequence>166</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [Class Name=&amp;quot;PasswordBox&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:78)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467876</millis>
+  <sequence>168</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Edit_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467877</millis>
+  <sequence>169</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Edit_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">80</property>
+  <property name="stepIndex">30</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:27</date>
+  <millis>1663846467933</millis>
+  <sequence>171</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Custom[1]/Edit[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:80)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468235</millis>
+  <sequence>173</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Edit_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468235</millis>
+  <sequence>174</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">82</property>
+  <property name="stepIndex">31</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468278</millis>
+  <sequence>176</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Button[1]/Image[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:82)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468566</millis>
+  <sequence>178</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468566</millis>
+  <sequence>179</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">84</property>
+  <property name="stepIndex">32</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468618</millis>
+  <sequence>181</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Button[2]/Image[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:84)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468919</millis>
+  <sequence>183</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Collapsed_Two&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468920</millis>
+  <sequence>184</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">86</property>
+  <property name="stepIndex">33</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:28</date>
+  <millis>1663846468970</millis>
+  <sequence>186</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Custom[1]/Image[2]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:86)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469312</millis>
+  <sequence>188</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Password&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469312</millis>
+  <sequence>189</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">88</property>
+  <property name="stepIndex">34</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469366</millis>
+  <sequence>191</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Custom[1]/Image[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:88)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469674</millis>
+  <sequence>193</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Image_Username&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469674</millis>
+  <sequence>194</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_CargoBI&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">90</property>
+  <property name="stepIndex">35</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469742</millis>
+  <sequence>196</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [Name=&amp;quot;CARGO BI&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:90)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469909</millis>
+  <sequence>198</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_CargoBI&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469909</millis>
+  <sequence>199</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">92</property>
+  <property name="stepIndex">36</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:29</date>
+  <millis>1663846469955</millis>
+  <sequence>201</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Button[4]/Text[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:92)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470226</millis>
+  <sequence>203</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_Collapsed_One&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470227</millis>
+  <sequence>204</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">94</property>
+  <property name="stepIndex">37</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470273</millis>
+  <sequence>206</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Text[1]/Text[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:94)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470558</millis>
+  <sequence>208</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470558</millis>
+  <sequence>209</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">96</property>
+  <property name="stepIndex">38</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470609</millis>
+  <sequence>211</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [Class Name=&amp;quot;Text&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:96)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470730</millis>
+  <sequence>213</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470730</millis>
+  <sequence>214</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_WelcomeTo&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">98</property>
+  <property name="stepIndex">39</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470777</millis>
+  <sequence>216</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [Name=&amp;quot;Welcome to&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:98)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470918</millis>
+  <sequence>218</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_WelcomeTo&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470918</millis>
+  <sequence>219</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Login&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">100</property>
+  <property name="stepIndex">40</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:30</date>
+  <millis>1663846470964</millis>
+  <sequence>221</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Custom[1]/Button[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:100)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:31</date>
+  <millis>1663846471266</millis>
+  <sequence>223</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Login&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:31</date>
+  <millis>1663846471266</millis>
+  <sequence>224</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_Login&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">102</property>
+  <property name="stepIndex">41</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:31</date>
+  <millis>1663846471313</millis>
+  <sequence>226</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Search for element with locator: [XPATH=&amp;quot;//Window/Custom[1]/Button[1]/Text[1]&amp;quot;]</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$_findElement_closure1.doCall(FindElementKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.findElement(FindElementKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword$findElement.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.FindElementKeyword.execute(FindElementKeyword.groovy:32)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.findElement(WindowsBuiltinKeywords.java:846)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$findElement$2.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:102)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:31</date>
+  <millis>1663846471612</millis>
+  <sequence>228</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : findElement(findWindowsObject(&amp;quot;CargoBI/Login_Page/Text_Login&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:31</date>
+  <millis>1663846471612</millis>
+  <sequence>229</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : click(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Login&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="startLine">104</property>
+  <property name="stepIndex">42</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:31</date>
+  <millis>1663846471944</millis>
+  <sequence>231</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on element: Object Repository/CargoBI/Login_Page/Button_Login</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472185</millis>
+  <sequence>233</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Click on element: Object Repository/CargoBI/Login_Page/Button_Login succesfully</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="testops-method-name">com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call</property>
+  <property name="testops-execution-stacktrace">com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:338)
+com.kms.katalon.core.logging.KeywordLogger.logPassed(KeywordLogger.java:332)
+com.kms.katalon.core.logging.KeywordLogger$logPassed$0.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:45)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy)
+com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:89)
+com.kms.katalon.core.keyword.internal.KeywordMain$runKeyword.call(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:37)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword$click.callCurrent(Unknown Source)
+com.kms.katalon.core.windows.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:33)
+com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords.click(WindowsBuiltinKeywords.java:72)
+com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords$click$0.call(Unknown Source)
+TC_CRT_LoginPage.run(TC_CRT_LoginPage:104)
+</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472186</millis>
+  <sequence>234</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : click(findWindowsObject(&amp;quot;CargoBI/Login_Page/Button_Login&amp;quot;))</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472186</millis>
+  <sequence>235</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/Crash Test/TC_CRT_LoginPage</message>
+  <nestedLevel>1</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472186</millis>
+  <sequence>236</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/Crash Test/TC_CRT_LoginPage</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+  <property name="executionBindingVariables">[]</property>
+  <property name="applitools">false</property>
+  <property name="remainingRetryCount">3</property>
+  <property name="currentRetryCount">0</property>
+  <property name="keywordsUsage">{
+  &quot;web_ui&quot;: false,
+  &quot;web_service&quot;: false,
+  &quot;cucumber&quot;: false,
+  &quot;builtin&quot;: true,
+  &quot;mobile&quot;: false,
+  &quot;windows&quot;: true,
+  &quot;testng&quot;: false
+}</property>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472186</millis>
+  <sequence>237</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472616</millis>
+  <sequence>551</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating HTML report folder at: C:\Users\Power\git\kt\Reports\20220922_133304\Crash Test\TS_CRT_LoginPage\20220922_133304...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472689</millis>
+  <sequence>552</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>HTML report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472689</millis>
+  <sequence>553</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Start generating CSV report folder at: C:\Users\Power\git\kt\Reports\20220922_133304\Crash Test\TS_CRT_LoginPage\20220922_133304...</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:32</date>
+  <millis>1663846472723</millis>
+  <sequence>554</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>CSV report generated</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:33</date>
+  <millis>1663846473027</millis>
+  <sequence>556</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End listener action : exportKatalonReports</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+<record>
+  <date>2022-09-22T13:34:33</date>
+  <millis>1663846473064</millis>
+  <sequence>557</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/Crash Test/TS_CRT_LoginPage</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
+</log>
