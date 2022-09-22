@@ -26,12 +26,10 @@ not_run: Windows.delay(5)
 
 Windows.click(findWindowsObject('Other/Button - Maximize'))
 
-Windows.click(findWindowsObject('Other/Button - Maximize'))
+
+Windows.setText(findWindowsObject('Object Repository/LoginPage_Old/Textfield - Username'), 'Kis')
 
 
-not_run: Windows.setText(findWindowsObject('Object Repository/LoginPage_Old/Textfield - Username'), 'Kis')
-
-Windows.delay(3)
 
 Windows.closeApplication()
 
