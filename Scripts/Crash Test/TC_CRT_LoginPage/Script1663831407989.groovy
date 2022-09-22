@@ -25,83 +25,83 @@ Windows.startApplicationWithTitle('C:\\Users\\Power\\Desktop\\Cargo_BI_Client\\b
 
 Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Button_Collapsed_One'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Button_Collapsed_One'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Image_Collapsed_One'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Image_Collapsed_One'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Button_Collapsed_Two'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Button_Collapsed_Two'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Image_Collapsed_Two'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Image_Collapsed_Two'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Button_Collapsed_Three'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Button_Collapsed_Three'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Text_Collapsed_One'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Text_Collapsed_One'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/ComboBox_Collapsed_One'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/ComboBox_Collapsed_One'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Edit_Collapsed_One'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Edit_Collapsed_One'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Custom'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Custom'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Text_WelcomeTo'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Text_WelcomeTo'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Text_CargoBI'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Text_CargoBI'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Image_Username'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Image_Username'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Edit_Username'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Edit_Username'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Image_Password'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Image_Password'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Edit_Password'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Edit_Password'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer'))
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner'))
 
 Windows.sendKeys(findWindowsObject('Other/Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'p'))
 
 Windows.delay(60)
 
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Login_Page/Button_Collapsed_One'))
+Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Login_Page/Button_Collapsed_One'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Button_Collapsed_Three'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Collapsed_Three'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Button_Collapsed_Two'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Collapsed_Two'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/ComboBox_Collapsed_One'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/ComboBox_Collapsed_One'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Custom'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Custom'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Edit_Collapsed_One'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Edit_Collapsed_One'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Edit_Password'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Edit_Password'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Edit_Username'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Edit_Username'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Image_Collapsed_One'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Image_Collapsed_One'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Image_Collapsed_Two'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Image_Collapsed_Two'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Image_Password'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Image_Password'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Image_Username'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Image_Username'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Text_CargoBI'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Text_CargoBI'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Text_Collapsed_One'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Text_Collapsed_One'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Text_LeftBottomCorner_ProgramVersion_Inner'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Text_LeftBottomCorner_ProgramVersion_Outer'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Text_WelcomeTo'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Text_WelcomeTo'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Button_Login'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login_disable'))
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Text_Login'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/Login_Page/Text_Login'))
 
-Windows.click(findWindowsObject('CargoBI/Login_Page/Button_Login'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
 Windows.click(findWindowsObject('CargoBI/Misc/Button_Close'))
 
