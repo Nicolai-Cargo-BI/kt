@@ -27,19 +27,21 @@ Windows.click(findWindowsObject('Welcome_Page/Button_Maximize'))
 
 Windows.click(findWindowsObject('CargoBI/Login_Page/Button_Login'))
 
-Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'w'))
+not_run: Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'w'))
 
-Windows.delay(45)
+not_run: Windows.delay(45)
 
-Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Custom_ELearning'))
+not_run: Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Custom_ELearning'))
 
-Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Button_ELearning'))
+not_run: Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Button_ELearning'))
 
-Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Text_ELearning_Outer'))
+not_run: Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Text_ELearning_Outer'))
 
-Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Text_ELearning_Inner'))
+not_run: Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Text_ELearning_Inner'))
 
-Windows.delay(30)
+not_run: Windows.delay(30)
+
+Windows.findElement(findWindowsObject('CargoBI/Login_Page/Button_Login'))
 
 Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Custom_MainMenu'))
 
@@ -115,7 +117,7 @@ Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Text_Versi
 
 Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Text_Version_Inner'))
 
-Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.COMMAND, 'm'))
+not_run: Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.COMMAND, 'm'))
 
 Windows.switchToApplication(FailureHandling.CONTINUE_ON_FAILURE)
 
