@@ -41,7 +41,7 @@ not_run: Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/T
 
 not_run: Windows.delay(30)
 
-Windows.findElement(findWindowsObject('CargoBI/Login_Page/Button_Login'))
+Windows.findElement(findWindowsObject('Welcome_Page/ListItem_User'))
 
 Windows.findElement(findWindowsObject('Object Repository/Welcome_Page/Custom_MainMenu'))
 
