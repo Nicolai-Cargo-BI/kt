@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Crash Suite,,,,2022-09-21 16:35:12,2022-09-21 16:35:16,4.179s,FAILED
+,,,,,,,
+Test Cases/Crash_test,,,,2022-09-21 16:35:12,2022-09-21 16:35:16,3.720s,FAILED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-21 16:35:13,2022-09-21 16:35:16,2.700s,FAILED

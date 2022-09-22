@@ -22,65 +22,65 @@ Windows.startApplicationWithTitle('C:\\Users\\Power\\Desktop\\Cargo-BI-Client\\C
 
 not_run: Windows.delay(4)
 
-not_run: Windows.click(findWindowsObject('MenuBar'))
+not_run: Windows.click(findWindowsObject('Other/MenuBar'))
 
-Windows.click(findWindowsObject('Button - Maximize'))
+Windows.click(findWindowsObject('Other/Button - Maximize'))
 
-Windows.sendKeys(findWindowsObject('Window'), Keys.chord(Keys.CONTROL, Keys.SHIFT, 'a'))
+Windows.sendKeys(findWindowsObject('Other/Window'), Keys.chord(Keys.CONTROL, Keys.SHIFT, 'a'))
 
 Windows.delay(65)
 
-Windows.findElement(findWindowsObject('Window'))
+Windows.findElement(findWindowsObject('Other/Window'))
 
 Windows.findElement(findWindowsObject('TitleBar'))
 
-Windows.findElement(findWindowsObject('MenuBar'))
+Windows.findElement(findWindowsObject('Other/MenuBar'))
 
-Windows.findElement(findWindowsObject('Text_WelcomeToCargoBI_Outer'))
+Windows.findElement(findWindowsObject('Other/Text_WelcomeToCargoBI_Outer'))
 
-Windows.findElement(findWindowsObject('Text_WelcomeToCargoBI_Inner'))
+Windows.findElement(findWindowsObject('Other/Text_WelcomeToCargoBI_Inner'))
 
-Windows.findElement(findWindowsObject('Text_Username_Outer'))
+Windows.findElement(findWindowsObject('Other/Text_Username_Outer'))
 
-Windows.findElement(findWindowsObject('Text_Username_Inner'))
+Windows.findElement(findWindowsObject('Other/Text_Username_Inner'))
 
-Windows.findElement(findWindowsObject('ComboBox'))
+Windows.findElement(findWindowsObject('Other/ComboBox'))
 
-Windows.click(findWindowsObject('ComboBox'))
+Windows.click(findWindowsObject('Other/ComboBox'))
 
-Windows.findElement(findWindowsObject('Text_Test'))
+Windows.findElement(findWindowsObject('Other/Text_Test'))
 
-Windows.findElement(findWindowsObject('Text_ADMethod'))
+Windows.findElement(findWindowsObject('Other/Text_ADMethod'))
 
-Windows.findElement(findWindowsObject('Text_CWMethod'))
+Windows.findElement(findWindowsObject('Other/Text_CWMethod'))
 
-Windows.findElement(findWindowsObject('ListItem_ADMethod'))
+Windows.findElement(findWindowsObject('Other/ListItem_ADMethod'))
 
-Windows.findElement(findWindowsObject('ListItem_CWMethod'))
+Windows.findElement(findWindowsObject('Other/ListItem_CWMethod'))
 
-Windows.findElement(findWindowsObject('ListItem_Test'))
+Windows.findElement(findWindowsObject('Other/ListItem_Test'))
 
-Windows.findElement(findWindowsObject('Text_Password_Outer'))
+Windows.findElement(findWindowsObject('Other/Text_Password_Outer'))
 
-Windows.findElement(findWindowsObject('Text_Password_Inner'))
+Windows.findElement(findWindowsObject('Other/Text_Password_Inner'))
 
-Windows.findElement(findWindowsObject('Edit_Username'))
+Windows.findElement(findWindowsObject('Other/Edit_Username'))
 
-Windows.findElement(findWindowsObject('Edit_Password'))
+Windows.findElement(findWindowsObject('Other/Edit_Password'))
 
-Windows.findElement(findWindowsObject('Custom'))
+Windows.findElement(findWindowsObject('Other/Custom'))
 
-Windows.findElement(findWindowsObject('Button_Login'))
+Windows.findElement(findWindowsObject('Other/Button_Login'))
 
-Windows.click(findWindowsObject('Button_Login'))
+Windows.click(findWindowsObject('Other/Button_Login'))
 
-Windows.click(findWindowsObject('Button_Login'))
+Windows.click(findWindowsObject('Other/Button_Login'))
 
-Windows.findElement(findWindowsObject('Text_LoginBox_LoginIsSuccessful'))
+Windows.findElement(findWindowsObject('Other/Text_LoginBox_LoginIsSuccessful'))
 
-Windows.findElement(findWindowsObject('Button_LoginBox_OK'))
+Windows.findElement(findWindowsObject('Other/Button_LoginBox_OK'))
 
-Windows.click(findWindowsObject('Button_LoginBox_OK'))
+Windows.click(findWindowsObject('Other/Button_LoginBox_OK'))
 
 Windows.delay(5)
 
