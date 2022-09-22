@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Case Suite,,,,2022-09-21 16:39:04,2022-09-21 16:39:16,12.411s,FAILED
+,,,,,,,
+Test Cases/New Test Case,,,,2022-09-21 16:39:04,2022-09-21 16:39:14,9.286s,PASSED
+delay(10),,,,2022-09-21 16:39:05,2022-09-21 16:39:05,0.006s,NOT_RUN
+"startApplicationWithTitle(""C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-21 16:39:05,2022-09-21 16:39:09,4.243s,PASSED
+delay(5),,,,2022-09-21 16:39:09,2022-09-21 16:39:09,0.002s,NOT_RUN
+"click(findWindowsObject(""Other/Button - Maximize""))",,,,2022-09-21 16:39:09,2022-09-21 16:39:10,0.926s,PASSED
+"setText(findWindowsObject(""Object Repository/LoginPage_Old/Textfield - Username""), ""Kis"")",,,,2022-09-21 16:39:10,2022-09-21 16:39:10,0.000s,NOT_RUN
+delay(3),,,,2022-09-21 16:39:10,2022-09-21 16:39:13,3.101s,PASSED
+closeApplication(),,,,2022-09-21 16:39:13,2022-09-21 16:39:14,0.148s,PASSED
+,,,,,,,
+Test Cases/Crash_test,,,,2022-09-21 16:39:16,2022-09-21 16:39:16,0.494s,FAILED
+"startApplicationWithTitle(""C:\Users\Power\Desktop\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe"", """")",,,,2022-09-21 16:39:16,2022-09-21 16:39:16,0.477s,FAILED

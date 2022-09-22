@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite Collection" time="15.75" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Case Suite" tests="1" failures="0" errors="0" time="10.03" skipped="0" timestamp="2022-09-21 16:36:27" hostname="NicolaiBertelsenJens - DESKTOP-OVUIPS1" id="Test Suites/New Test Case Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\NicolaiBertelsenJens\\git\\kt\\Reports\\20220921_163618\\New Test Case Suite\\20220921_163620"/>
+         <property name="logFiles" value="C:\\Users\\NicolaiBertelsenJens\\git\\kt\\Reports\\20220921_163618\\New Test Case Suite\\20220921_163620\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="NicolaiBertelsenJens - DESKTOP-OVUIPS1"/>
+         <property name="hostAddress" value="192.168.50.120"/>
+         <property name="desiredCapabilities" value="{}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.1.208"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="9.419" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-09-21 16:36:27 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-09-21 16:36:28 - [TEST_STEP][NOT_RUN] - delay(10): NOT_RUN: delay(10)
+
+2022-09-21 16:36:28 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(10)
+
+2022-09-21 16:36:28 - [TEST_STEP][PASSED] - startApplicationWithTitle("C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe", ""): The application at location: C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-21 16:36:29 - [MESSAGE][INFO] - Starting application C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe on the local machine at address http://127.0.0.1:4723
+
+2022-09-21 16:36:33 - [MESSAGE][PASSED] - The application at location: C:\Users\NicolaiBertelsenJens\source\repos\Cargo-BI-Client\Cargo_BI_Client\bin\Debug\net6.0-windows\Cargo_BI_Client.exe started.
+
+2022-09-21 16:36:33 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2022-09-21 16:36:33 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2022-09-21 16:36:33 - [TEST_STEP][PASSED] - click(findWindowsObject("Other/Button - Maximize")): Click on element: Object Repository/Other/Button - Maximize succesfully
+
+2022-09-21 16:36:33 - [MESSAGE][INFO] - Clicking on element: Object Repository/Other/Button - Maximize
+
+2022-09-21 16:36:34 - [MESSAGE][PASSED] - Click on element: Object Repository/Other/Button - Maximize succesfully
+
+2022-09-21 16:36:34 - [TEST_STEP][NOT_RUN] - setText(findWindowsObject("Object Repository/LoginPage_Old/Textfield - Username"), "Kis"): NOT_RUN: setText(findWindowsObject("Object Repository/LoginPage_Old/Textfield - Username"), "Kis")
+
+2022-09-21 16:36:34 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findWindowsObject("Object Repository/LoginPage_Old/Textfield - Username"), "Kis")
+
+2022-09-21 16:36:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2022-09-21 16:36:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-09-21 16:36:37 - [TEST_STEP][PASSED] - closeApplication(): Fire Close event sucessfully.
+
+2022-09-21 16:36:37 - [MESSAGE][PASSED] - Fire Close event sucessfully.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-21 16:36:27 - [TEST_SUITE][PASSED] - New Test Case Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
