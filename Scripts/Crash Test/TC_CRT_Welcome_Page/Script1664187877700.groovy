@@ -27,20 +27,19 @@ Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'
 
 Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
-not_run: Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 
-        'w'))
+Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'w'))
 
-not_run: Windows.delay(45)
+Windows.delay(45)
 
-not_run: Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Custom_ELearning'))
+Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Custom_ELearning'))
 
-not_run: Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Button_ELearning'))
+Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Button_ELearning'))
 
-not_run: Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_ELearning_Outer'))
+Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_ELearning_Outer'))
 
-not_run: Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_ELearning_Inner'))
+Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_ELearning_Inner'))
 
-not_run: Windows.delay(30)
+Windows.delay(30)
 
 Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Custom_MainMenu'))
 
@@ -87,36 +86,6 @@ Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welc
 Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_Omnia_Outer'))
 
 Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_Omnia_Inner'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Button_ChatBot'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_ChatBot'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/ComboBox'))
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/ComboBox'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Edit_Collapsed'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/ListItem_SuperAdmin'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/ListItem_Admin'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/ListItem_User'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_CBox_SuperAdmin'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_CBox_SuperAdmin'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_CBox_Admin'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_CBox_User'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_Version_Outer'))
-
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Welcome_Page/Text_Version_Inner'))
-
-Windows.click(findWindowsObject('CargoBI/Misc/Button_Close'))
 
 Windows.click(findWindowsObject('CargoBI/Misc/Button_Close'))
 

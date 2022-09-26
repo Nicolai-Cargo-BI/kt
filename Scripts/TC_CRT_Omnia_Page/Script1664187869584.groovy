@@ -24,11 +24,15 @@ Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
 
 Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
-not_run: Windows.delay(2)
+Windows.click(findWindowsObject('CargoBI/Crash Test/Welcome_Page/Button_Omnia'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Welcome_Page/Button_DNA'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/RadioButton_Overall'))
 
-Windows.delay(5)
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/ComboBox_Reports'))
+
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/RadioButton_Manager'))
+
+Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/RadioButton_User'))
 
 Windows.closeApplication()
 
