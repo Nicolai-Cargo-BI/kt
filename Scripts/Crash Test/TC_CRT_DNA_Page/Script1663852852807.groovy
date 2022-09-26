@@ -17,31 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
+Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
 Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Welcome_Page/Button_Omnia'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/Welcome_Page/Button_DNA'))
 
-Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'o'))
+Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'd'))
 
 Windows.delay(65)
 
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/RadioButton_Overall'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/DNA_Page/Text_ClickMe'))
 
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/ComboBox_Reports'))
+Windows.delay(60)
 
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/RadioButton_Manager'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_UpdateTag'))
 
-Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Omnia_Page/RadioButton_User'))
-
-Windows.findElement(findWindowsObject('CargoBI/Crash Test/Omnia_Page/Thumb'))
+Windows.findElement(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_AddTag'))
 
 Windows.closeApplication()
 

@@ -17,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
-    '')
-
-Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
-
-Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
-
-not_run: Windows.delay(2)
-
-Windows.click(findWindowsObject('CargoBI/Crash Test/Welcome_Page/Button_DNA'))
-
-Windows.delay(5)
-
-Windows.closeApplication()
-
