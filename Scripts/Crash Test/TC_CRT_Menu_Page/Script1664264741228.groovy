@@ -29,7 +29,7 @@ Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
 Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'w'))
 
-Windows.delay(45)
+Windows.delay(50)
 
 Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Menu_Page/Custom_ELearning'))
 
@@ -39,7 +39,7 @@ Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Menu
 
 Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Menu_Page/Text_ELearning_Inner'))
 
-Windows.delay(30)
+Windows.delay(25)
 
 Windows.findElement(findWindowsObject('Object Repository/CargoBI/Crash Test/Menu_Page/Custom_MainMenu'))
 
