@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_CRT_Welcome_Page</name>
+   <name>TS_CRT_Menu_Page</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -15,7 +15,7 @@
       <guid>2e5b7ef2-b91d-4222-91d4-7a54b5971be4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Crash Test/TC_CRT_Welcome_Page</testCaseId>
+      <testCaseId>Test Cases/Crash Test/TC_CRT_Menu_Page</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

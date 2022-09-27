@@ -27,7 +27,7 @@ Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
 
 Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Welcome_Page/Button_Omnia'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/Menu_Page/Button_Omnia'))
 
 Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'o'))
 
