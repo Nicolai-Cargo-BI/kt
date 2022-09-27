@@ -41,3 +41,5 @@ Windows.findElement(findWindowsObject('CargoBI/Crash Test/DQN_Page/Button_AddErr
 
 Windows.findElement(findWindowsObject('CargoBI/Crash Test/DQN_Page/Button_Switch_Top'))
 
+Windows.closeApplication()
+
