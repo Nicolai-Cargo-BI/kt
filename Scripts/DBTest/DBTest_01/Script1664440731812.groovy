@@ -17,5 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle(findWindowsObject(null), '')
+import java.sql.ResultSetMetaData
+import java.sql.Connection;
+import java.sql.DriverManager
+import java.sql.ResultSet
+import java.sql.Statement
+// Test om der kan indhentes data fra databasen i SQL Server
+String url = 'cargo-bi-testserver.database.windows.net;databaseName=TestDB'
+//String dbName = 'TestDB'
+String user = 'CargoBITestingAD'
+String pass = '1h&0nxcJ$*6tgLe9TuV7LkDLkRRil%mH'
 
+CustomKeywords.'com.db.sqlserver.connectDB'(url, user, pass)
+String selectData = 'select * from elearning.ELE_courses'
+List<List> rowList = CustomKeywords.'com.db.sqlserver.executeQuery'(selectData)
+
+println('First Result: ' + rowList.get(0).get(1))
+
+
+
+CustomKeywords.'com.db.sqlserver.closeDatabaseConnection'()

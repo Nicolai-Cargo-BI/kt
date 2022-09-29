@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestTheUseOfVariables</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>862eb024-05a2-4b26-b758-9c1a3302cee3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ea3c2b49-1e7b-4e07-96e0-9f693e824216</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e77ae4c2-5b53-4dbe-9f0b-a96ecdf14264</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>7</defaultValue>
+      <description></description>
+      <id>ea3c2b49-1e7b-4e07-96e0-9f693e824216</id>
+      <masked>false</masked>
+      <name>tal</name>
+   </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>e77ae4c2-5b53-4dbe-9f0b-a96ecdf14264</id>
+      <masked>false</masked>
+      <name>check</name>
+   </variable>
+</TestCaseEntity>
