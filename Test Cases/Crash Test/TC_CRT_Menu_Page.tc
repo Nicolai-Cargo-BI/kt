@@ -3,16 +3,6 @@
    <description></description>
    <name>TC_CRT_Menu_Page</name>
    <tag></tag>
-   <integratedEntity>
-      <productName>Azure</productName>
-      <properties>
-         <entry>
-            <key>azure.testcase.ids</key>
-            <value>741</value>
-         </entry>
-      </properties>
-      <type>TESTCASE</type>
-   </integratedEntity>
    <comment></comment>
-   <testCaseGuid>04201ec7-c5c8-40f1-98bb-555db316a8ac</testCaseGuid>
+   <testCaseGuid>636126df-0b31-4b30-bff9-ec035c317881</testCaseGuid>
 </TestCaseEntity>

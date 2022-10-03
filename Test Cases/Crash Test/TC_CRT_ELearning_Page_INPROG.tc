@@ -3,6 +3,16 @@
    <description></description>
    <name>TC_CRT_ELearning_Page_INPROG</name>
    <tag></tag>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>825</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
    <comment></comment>
    <testCaseGuid>5d953380-9a9d-4882-a7b7-bd93236a88f3</testCaseGuid>
 </TestCaseEntity>

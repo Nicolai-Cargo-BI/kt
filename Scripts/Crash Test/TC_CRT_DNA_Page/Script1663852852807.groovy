@@ -25,9 +25,9 @@ Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult A
 
 Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page2/Button_Login'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Menu_Page/Button_DNA'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/Menu_Page_2/Button_DNA'))
 
 Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'd'))
 

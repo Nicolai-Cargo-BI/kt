@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>34c6ed7a-e208-498a-bdf9-9c7562386a99</testSuiteGuid>
    <testCaseLink>
-      <guid>2e5b7ef2-b91d-4222-91d4-7a54b5971be4</guid>
+      <guid>53cc112d-2d36-421e-8b7b-6f12906e6c47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Crash Test/TC_CRT_Menu_Page</testCaseId>

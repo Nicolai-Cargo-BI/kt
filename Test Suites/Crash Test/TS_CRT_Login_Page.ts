@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>84fea26c-b861-4676-b37c-b7098c743571</testSuiteGuid>
    <testCaseLink>
-      <guid>e4e7a860-89b0-47ad-b790-ce9a520ccf02</guid>
+      <guid>0e6ae3e4-3838-48ad-92ef-b1e2f959632d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Crash Test/TC_CRT_Login_Page</testCaseId>
