@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "F6130D4FCC3C7B3E2DED4969EE2456AE",
+  "keywordClasses": [
+    {
+      "name": "com.db.keys",
+      "keywordMethods": [
+        {
+          "name": "Macro_continue",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

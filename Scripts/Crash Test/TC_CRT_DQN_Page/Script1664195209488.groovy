@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.annotation.TearDownIfFailed as TearDownIfFailed
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,7 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
 Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
@@ -25,21 +26,74 @@ Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repo
 
 Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page2/Button_Login'))
-
-Windows.click(findWindowsObject('CargoBI/Crash Test/Menu_Page_2/Button_DQN'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
 Windows.sendKeys(findWindowsObject('Other/Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'q'))
 
-Windows.delay(47)
+Windows.delay(11)
 
-Windows.findElement(findWindowsObject('CargoBI/Crash Test/DQN_Page/Button_ManagerEr'))
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_User_ShipmentID'), 0, 
+    FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(40)
 
-Windows.findElement(findWindowsObject('CargoBI/Crash Test/DQN_Page/Button_AddError'))
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_Admin_ManagerError_Overdue'), 
+    0, FailureHandling.STOP_ON_FAILURE)
 
-Windows.findElement(findWindowsObject('CargoBI/Crash Test/DQN_Page/Button_Switch_Top'))
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(22)
+
+Windows.verifyElementNotPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_Admin_ManagerError_Overdue'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(19)
+
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Add_AddErrorPopUp'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(18)
+
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Add_AddCriteriaPopUp'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(29)
+
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Update_UpdateErrorPopUp'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(14)
+
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Switch_Middle'), 0, 
+    FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(35)
+
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_SuperAdmin_ActiveError_Overdue'), 
+    0, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(15)
 
 Windows.closeApplication()
+
+@TearDownIfFailed
+def handleFailure() {
+    Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.ESCAPE))
+
+    Windows.closeApplication()
+}
 

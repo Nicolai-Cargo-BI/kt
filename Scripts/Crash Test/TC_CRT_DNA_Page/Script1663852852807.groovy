@@ -16,30 +16,69 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import com.kms.katalon.core.annotation.TearDownIfFailed as TearDownIfFailed
 
-not_run: Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
+
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
 
 Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page2/Button_Login'))
-
-Windows.click(findWindowsObject('CargoBI/Crash Test/Menu_Page_2/Button_DNA'))
-
 Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'd'))
+
+Windows.delay(10)
+
+Windows.verifyElementNotPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Solutions'), 0, FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(65)
 
-Windows.findElement(findWindowsObject('CargoBI/Crash Test/DNA_Page/Text_ClickMe'))
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_M20RLH46AQ'), 0, FailureHandling.CONTINUE_ON_FAILURE)
 
-Windows.delay(60)
+CustomKeywords.'com.db.keys.Macro_continue'()
 
-Windows.findElement(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_UpdateTag'))
+Windows.delay(21)
 
-Windows.findElement(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_AddTag'))
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_YF7Q0SCROK'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(29)
+
+
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_DHWVCUGCPO'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(20)
+
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Text_Mandatory_Menu'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(23)
+
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Text_Click_Me'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
+CustomKeywords.'com.db.keys.Macro_continue'()
+
+Windows.delay(40)
+
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_Tag'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+
 
 Windows.closeApplication()
+
+@TearDownIfFailed
+def handleFailure() {
+    Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.ESCAPE))
+
+    Windows.closeApplication()
+}
 

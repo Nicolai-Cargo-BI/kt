@@ -72,7 +72,7 @@ public class sqlserver {
 		}
 		int i = 1
 		for(List<String> row: rowList) {
-			
+
 			for(String data: row) {
 				System.out.println("Data (række "+ i + "): " + data)
 			}
