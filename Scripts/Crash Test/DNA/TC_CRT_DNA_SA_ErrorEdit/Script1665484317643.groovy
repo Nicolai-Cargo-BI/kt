@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.annotation.TearDownIfFailed as TearDownIfFailed
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -16,8 +17,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebElement as WebElement
-import com.kms.katalon.core.annotation.TearDownIfFailed as TearDownIfFailed
 
 Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
@@ -25,53 +24,27 @@ Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repo
 not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
-
 Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
-Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'd'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login/Edit_Username'))
 
-Windows.delay(10)
+Windows.setText(findWindowsObject('CargoBI/Crash Test/Login/Edit_Username'), 'Super admin')
 
-Windows.verifyElementNotPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Solutions'), 0, FailureHandling.STOP_ON_FAILURE)
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login/Edit_Password'))
 
-CustomKeywords.'com.db.keys.Macro_continue'()
+Windows.setText(findWindowsObject('CargoBI/Crash Test/Login/Edit_Password'), 'test')
 
-Windows.delay(65)
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login/Button_Login'))
 
-Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_M20RLH46AQ'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Windows.delay(5)
 
-CustomKeywords.'com.db.keys.Macro_continue'()
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DQN/Button_Switch_Middle'), 0)
 
-Windows.delay(21)
+Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, '4'))
 
-Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_YF7Q0SCROK'), 0, FailureHandling.CONTINUE_ON_FAILURE)
+Windows.delay(85)
 
-CustomKeywords.'com.db.keys.Macro_continue'()
-
-Windows.delay(29)
-
-
-Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_DHWVCUGCPO'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-CustomKeywords.'com.db.keys.Macro_continue'()
-
-Windows.delay(20)
-
-Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Text_Mandatory_Menu'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-CustomKeywords.'com.db.keys.Macro_continue'()
-
-Windows.delay(23)
-
-Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Text_Click_Me'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
-CustomKeywords.'com.db.keys.Macro_continue'()
-
-Windows.delay(40)
-
-Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA_Page/Button_Update_Tag'), 0, FailureHandling.CONTINUE_ON_FAILURE)
-
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DQN/Button_Switch_Middle'), 0)
 
 Windows.closeApplication()
 

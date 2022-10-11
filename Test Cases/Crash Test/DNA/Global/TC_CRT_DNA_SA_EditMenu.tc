@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Crash Test for Super Admin using DNA Page</description>
+   <name>TC_CRT_DNA_SA_EditMenu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b2d4eafd-6a86-49fa-bc6e-b53fe674b994</testCaseGuid>
+</TestCaseEntity>

@@ -26,62 +26,62 @@ Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repo
 
 Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Login_Page/Button_Login'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/DQN/Login_Page/Button_Login'))
 
 Windows.sendKeys(findWindowsObject('Other/Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'q'))
 
 Windows.delay(11)
 
-Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_User_ShipmentID'), 0, 
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Text_User_ShipmentID'), 0, 
     FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(40)
 
-Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_Admin_ManagerError_Overdue'), 
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Text_Admin_ManagerError_Overdue'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(22)
 
-Windows.verifyElementNotPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_Admin_ManagerError_Overdue'), 
+Windows.verifyElementNotPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Text_Admin_ManagerError_Overdue'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(19)
 
-Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Add_AddErrorPopUp'), 
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Button_Add_AddErrorPopUp'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(18)
 
-Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Add_AddCriteriaPopUp'), 
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Button_Add_AddCriteriaPopUp'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(29)
 
-Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Update_UpdateErrorPopUp'), 
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Button_Update_UpdateErrorPopUp'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(14)
 
-Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Button_Switch_Middle'), 0, 
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Button_Switch_Middle'), 0, 
     FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()
 
 Windows.delay(35)
 
-Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN_Page/Text_SuperAdmin_ActiveError_Overdue'), 
+Windows.verifyElementPresent(findWindowsObject('Object Repository/CargoBI/Crash Test/DQN/Text_SuperAdmin_ActiveError_Overdue'), 
     0, FailureHandling.STOP_ON_FAILURE)
 
 CustomKeywords.'com.db.keys.Macro_continue'()

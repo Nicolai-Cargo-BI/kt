@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: WebUI.callTestCase(findTestCase('Crash Test/TC_CRT_DNA_Page'), [:], FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Crash Test/DNA/TC_CRT_DNA'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 int y = 5
 

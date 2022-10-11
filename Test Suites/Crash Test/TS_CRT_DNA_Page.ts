@@ -15,7 +15,7 @@
       <guid>34c6a7aa-f401-4f33-ba1c-b80136e075f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Crash Test/TC_CRT_DNA_Page</testCaseId>
+      <testCaseId>Test Cases/Crash Test/DNA/TC_CRT_DNA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
