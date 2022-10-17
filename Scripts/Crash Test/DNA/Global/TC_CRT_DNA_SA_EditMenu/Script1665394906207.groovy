@@ -36,9 +36,15 @@ Windows.setText(findWindowsObject('CargoBI/Crash Test/DNA/Global_DNA/Edit_Passwo
 
 Windows.click(findWindowsObject('CargoBI/Crash Test/DNA/Global_DNA/Button_Login'))
 
-Windows.sendKeys(findWindowsObject('Other/Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, '1'))
+Windows.click(findWindowsObject('CargoBI/Crash Test/DNA/Global_DNA/Button_DNA'))
 
-Windows.delay(57)
+Windows.click(findWindowsObject('CargoBI/Crash Test/DNA/Global_DNA/Text_DHWVCUGCPO_1st'))
+
+Windows.click(findWindowsObject('CargoBI/Crash Test/DNA/Global_DNA/Text_YFOK7Q0SCR_2nd'))
+
+Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, '1'))
+
+Windows.delay(45)
 
 Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/DNA/Global_DNA/Button_Update'), 0)
 
@@ -46,7 +52,7 @@ Windows.closeApplication()
 
 @TearDownIfFailed
 def handleFailure() {
-    Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.ESCAPE))
+    CustomKeywords.'com.db.keys.Test_Fails'()
 
     Windows.closeApplication()
 }

@@ -1,11 +1,16 @@
 {
-  "keywordFileContentHash": "F6130D4FCC3C7B3E2DED4969EE2456AE",
+  "keywordFileContentHash": "B31A1BD6205548A6B7E68C29D609CE2A",
   "keywordClasses": [
     {
       "name": "com.db.keys",
       "keywordMethods": [
         {
           "name": "Macro_continue",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Test_Fails",
           "parameters": [],
           "javadoc": ""
         }

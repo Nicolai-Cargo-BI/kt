@@ -41,6 +41,13 @@ public class keys {
 		r.keyRelease(KeyEvent.VK_SHIFT)
 	}
 
+	@Keyword
+	def Test_Fails() {
+		Robot r = new Robot()
+		r.keyPress(KeyEvent.VK_ESCAPE)
+		r.keyRelease(KeyEvent.VK_ESCAPE)
+	}
+
 	def key_start( ) {
 		Robot r = new Robot()
 		r.keyPress(KeyEvent.VK_CONTROL)

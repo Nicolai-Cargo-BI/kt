@@ -15,7 +15,7 @@
       <guid>81df5979-6a8b-45b9-ba21-d28ad016ac7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Crash Test/TC_CRT_Omnia_Page</testCaseId>
+      <testCaseId>Test Cases/Crash Test/OMN/TC_CRT_OMN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

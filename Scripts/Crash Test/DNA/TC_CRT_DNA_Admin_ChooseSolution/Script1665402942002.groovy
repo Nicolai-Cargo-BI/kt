@@ -24,13 +24,17 @@ Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repo
 not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson Consult Aps\\Desktop\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.click(findWindowsObject('CargoBI/Crash Test/Login/Button_Login'))
-
 Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
-WebUI.comment('mangler at logge ind med rigtige bruger, da der stadig er select feature på user')
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login/Edit_Username'))
 
-Windows.delay(5)
+Windows.setText(findWindowsObject('CargoBI/Crash Test/Login/Edit_Username'), 'Admin')
+
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login/Edit_Password'))
+
+Windows.setText(findWindowsObject('CargoBI/Crash Test/Login/Edit_Password'), 'test')
+
+Windows.click(findWindowsObject('CargoBI/Crash Test/Login/Button_Login'))
 
 Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, '3'))
 
@@ -50,7 +54,7 @@ Windows.closeApplication()
 
 @TearDownIfFailed
 def handleFailure() {
-    Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.ESCAPE))
+    CustomKeywords.'com.db.keys.Test_Fails'()
 
     Windows.closeApplication()
 }

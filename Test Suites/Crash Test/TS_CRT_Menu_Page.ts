@@ -15,7 +15,7 @@
       <guid>53cc112d-2d36-421e-8b7b-6f12906e6c47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Crash Test/TC_CRT_Menu_Page</testCaseId>
+      <testCaseId>Test Cases/Crash Test/TC_CRT_Menu_Page_OLD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -3,8 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import com.kms.katalon.core.annotation.TearDownIfFailed
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -40,52 +38,11 @@ not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\OneDrive - Jonson 
 	 */
 Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
 
-/*
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Button_One_Collapsed'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Image_One_Collpased'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Button_Two_Collapsed'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Image_Two_Collpased'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Button_Three_Collapsed'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Image_Three_Collpased'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Custom_ChatBot'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Text_ChatBot_One'))
- * 
- * Windows.click(findWindowsObject('Object Repository/CargoBI/Crash
- * Test/DQN/Login_Page/Text_ChatBot_Two'))
- 
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login/Custom_Screen'))
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login/Text_WelcomeTo'))
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login/Text_CargoBI'))
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login/Image_Username'))
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login/Edit_Username'))
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login/Image_Password'))
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Crash Test/Login/Edit_Password'))
-*/
-Windows.sendKeys(findWindowsObject('Other/Window'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 'p'))
-
-Windows.delay(60)
+for (int y = 40; y<1000; y+=50) {
+	for (int x = 50; x<1900; x+=50) {	
+			Windows.clickElementOffset(findWindowsObject('CargoBI/Crash Test/Login/Custom_Screen'), x, y)	
+	}		
+}
 
 Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/Login/Text_CARGO_BI'), 0)
 
@@ -115,11 +72,4 @@ Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/Login/Text_CA
  * Test/DQN/Login_Page/xFindElements/Button_DNA_Find'))
  */
 Windows.closeApplication()
-
-@TearDownIfFailed
-def handleFailure() {
-	CustomKeywords.'com.db.keys.Test_Fails'()
-
-	Windows.closeApplication()
-}
 
