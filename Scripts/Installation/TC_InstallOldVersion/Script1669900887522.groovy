@@ -17,19 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\Cargo-BI-Client\\Cargo_BI_Client.exe', 
-    '')
-
-not_run: Windows.delay(3)
-
-not_run: if (Windows.verifyElementPresent(findWindowsObject('Text_NewUpdateAvailable'), 0)) {
-    not_run: Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 
-            'u'))
-
-    not_run: Windows.click(findWindowsObject('Button_UpdateAvailableOK'))
-}
-
-CustomKeywords.'com.db.keys.Test_desktop'()
-
-CustomKeywords.'com.db.keys.Test_UpdateCheck'()
-

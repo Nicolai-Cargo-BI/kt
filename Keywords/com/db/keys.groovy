@@ -69,6 +69,18 @@ public class keys {
 		r.keyRelease(KeyEvent.VK_U)
 	}
 
+	@Keyword
+	def Test_OldVersionInstall() {
+		Robot r = new Robot()
+		r.keyPress(KeyEvent.VK_CONTROL)
+		r.keyPress(KeyEvent.VK_SHIFT)
+		r.keyPress(KeyEvent.VK_I)
+
+		r.keyRelease(KeyEvent.VK_CONTROL)
+		r.keyRelease(KeyEvent.VK_SHIFT)
+		r.keyRelease(KeyEvent.VK_I)
+	}
+
 	def key_start( ) {
 		Robot r = new Robot()
 		r.keyPress(KeyEvent.VK_CONTROL)

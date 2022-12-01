@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS_UpdateCheck</name>
+   <name>TS_OldVersionInstall</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>6bea6fbe-76e6-4458-8be7-f0b898fe9728</testSuiteGuid>
+   <testSuiteGuid>6f59da77-64ce-4efd-ada0-9286ad8217b0</testSuiteGuid>
    <testCaseLink>
-      <guid>59434bed-b9d4-4f5e-b331-ae762aa8a8cc</guid>
+      <guid>1ab9055d-c22d-421f-9723-1e228d17d257</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Installation/TC_UpdateCheck</testCaseId>
+      <testCaseId>Test Cases/Installation/TC_OldVersionInstall</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,27 +1,36 @@
 {
-  "keywordFileContentHash": "89C5ED00CB08117E22F6308CE9409A59",
+  "keywordFileContentHash": "8EA2B6C68458D504D323D600AB4B2C03",
   "keywordClasses": [
     {
       "name": "com.db.keys",
       "keywordMethods": [
         {
           "name": "Macro_continue",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "Test_Fails",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "Test_desktop",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "Test_UpdateCheck",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "Test_OldVersionInstall",
+          "parameters": [],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
