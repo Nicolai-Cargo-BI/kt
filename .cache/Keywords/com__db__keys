@@ -1,21 +1,27 @@
 {
-  "keywordFileContentHash": "B31A1BD6205548A6B7E68C29D609CE2A",
+  "keywordFileContentHash": "89C5ED00CB08117E22F6308CE9409A59",
   "keywordClasses": [
     {
       "name": "com.db.keys",
       "keywordMethods": [
         {
           "name": "Macro_continue",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
         },
         {
           "name": "Test_Fails",
-          "parameters": [],
-          "javadoc": ""
+          "parameters": []
+        },
+        {
+          "name": "Test_desktop",
+          "parameters": []
+        },
+        {
+          "name": "Test_UpdateCheck",
+          "parameters": []
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -17,18 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
-    '')
-
-Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Close'))
-
-Windows.click(findWindowsObject('Object Repository/Text_NewUpdateAvailable'))
-
-Windows.click(findWindowsObject('Object Repository/Edit'))
-
-Windows.click(findWindowsObject('Object Repository/Other/ComboBox'))
-
-Windows.click(findWindowsObject('Object Repository/ListItem'))
-
-Windows.closeApplication()
-

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_CRT_ELE_Admin_EditSeries</name>
+   <name>TC_UpdateCheck</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>229a54cd-14e9-4fdb-859a-a8c338499650</testCaseGuid>
+   <testCaseGuid>8094ecdb-e3c6-4a87-8fef-6c9522a06e37</testCaseGuid>
 </TestCaseEntity>

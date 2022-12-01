@@ -17,18 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargo-BI-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
+not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\Cargo-BI-Client\\Cargo_BI_Client.exe', 
     '')
 
-Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Close'))
+not_run: Windows.delay(3)
 
-Windows.click(findWindowsObject('Object Repository/Text_NewUpdateAvailable'))
+not_run: if (Windows.verifyElementPresent(findWindowsObject('Text_NewUpdateAvailable'), 0)) {
+    not_run: Windows.sendKeys(findWindowsObject('CargoBI/Misc/Window_CargoBI_Application'), Keys.chord(Keys.SHIFT, Keys.CONTROL, 
+            'u'))
 
-Windows.click(findWindowsObject('Object Repository/Edit'))
+    not_run: Windows.click(findWindowsObject('Button_UpdateAvailableOK'))
+}
 
-Windows.click(findWindowsObject('Object Repository/Other/ComboBox'))
+CustomKeywords.'com.db.keys.Test_desktop'()
 
-Windows.click(findWindowsObject('Object Repository/ListItem'))
-
-Windows.closeApplication()
+CustomKeywords.'com.db.keys.Test_UpdateCheck'()
 

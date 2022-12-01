@@ -48,6 +48,27 @@ public class keys {
 		r.keyRelease(KeyEvent.VK_ESCAPE)
 	}
 
+	@Keyword
+	def Test_desktop() {
+		Robot r = new Robot()
+		r.keyPress(KeyEvent.VK_WINDOWS)
+		r.keyPress(KeyEvent.VK_M)
+		r.keyRelease(KeyEvent.VK_WINDOWS)
+		r.keyRelease(KeyEvent.VK_M)
+	}
+
+	@Keyword
+	def Test_UpdateCheck() {
+		Robot r = new Robot()
+		r.keyPress(KeyEvent.VK_CONTROL)
+		r.keyPress(KeyEvent.VK_SHIFT)
+		r.keyPress(KeyEvent.VK_U)
+
+		r.keyRelease(KeyEvent.VK_CONTROL)
+		r.keyRelease(KeyEvent.VK_SHIFT)
+		r.keyRelease(KeyEvent.VK_U)
+	}
+
 	def key_start( ) {
 		Robot r = new Robot()
 		r.keyPress(KeyEvent.VK_CONTROL)
