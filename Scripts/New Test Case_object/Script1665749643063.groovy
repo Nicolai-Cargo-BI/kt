@@ -37,4 +37,4 @@ List<TestObjectProperty> props = wto.getProperties()
 
 props.size()
 
-println("Size "+props)
+println("Size: "+props)
