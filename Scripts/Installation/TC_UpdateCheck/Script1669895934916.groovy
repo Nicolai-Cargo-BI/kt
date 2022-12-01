@@ -21,3 +21,5 @@ CustomKeywords.'com.db.keys.Test_desktop'()
 
 CustomKeywords.'com.db.keys.Test_UpdateCheck'()
 
+Windows.delay(10)
+
