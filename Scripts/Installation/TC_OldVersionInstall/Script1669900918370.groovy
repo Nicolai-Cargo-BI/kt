@@ -24,7 +24,7 @@ Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\C
 
 CustomKeywords.'com.db.keys.Test_OldVersionInstall'()
 
-Windows.delay(17)
+Windows.delay(25)
 
 Windows.startApplicationWithTitle('C:\\Users\\Power\\Downloads\\Cargo-BI-Client-Installer-Debug.exe', '')
 

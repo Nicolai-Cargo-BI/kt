@@ -3,6 +3,8 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+
+import com.kms.katalon.core.annotation.TearDownIfFailed
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -20,8 +22,7 @@ import org.openqa.selenium.Keys as Keys
 not_run: Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargi-BI-Global-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\Cargo-BI-Client\\Cargo_BI_Client.exe',
-	'')
+Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\Cargo-BI-Client\\Cargo_BI_Client.exe', '')
 
 Windows.click(findWindowsObject('CargoBI/Misc/Button_Maximize'))
 
@@ -42,4 +43,12 @@ Windows.delay(45)
 Windows.verifyElementPresent(findWindowsObject('CargoBI/Crash Test/OVR/Button_DNA'), 0)
 
 Windows.closeApplication()
+
+@TearDownIfFailed
+def handleFailure() {
+	CustomKeywords.'com.db.keys.Test_Fails'()
+
+	Windows.closeApplication()
+}
+
 

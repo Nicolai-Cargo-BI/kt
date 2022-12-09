@@ -21,8 +21,7 @@ import org.openqa.selenium.Keys as Keys
 not_run: Windows.startApplicationWithTitle('C:\\Users\\NicolaiBertelsenJens\\source\\repos\\Cargi-BI-Global-Client\\Cargo_BI_Client\\bin\\Debug\\net6.0-windows\\Cargo_BI_Client.exe', 
     '')
 
-Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\Cargo-BI-Client\\Cargo_BI_Client.exe',
-	'')
+Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\Cargo-BI-Client\\Cargo_BI_Client.exe', '')
 
 Windows.click(findWindowsObject('Object Repository/CargoBI/Misc/Button_Maximize'))
 
