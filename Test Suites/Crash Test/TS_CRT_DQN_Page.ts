@@ -15,7 +15,7 @@
       <guid>c11ee22d-d63c-48f9-afd2-86807a16572f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Crash Test/DQN/TC_CRT_DQN_Page</testCaseId>
+      <testCaseId>Test Cases/Crash Test/DQN/TC_CRT_DQN_Page_NOT_IN_USE</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
