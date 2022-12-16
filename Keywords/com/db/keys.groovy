@@ -31,6 +31,17 @@ public class keys {
 
 
 	@Keyword
+	def Scenarie_test_directory() {
+		
+		for (int i = 0; i<200; i++) {
+			println((char)i);
+		}
+		return ""+(char)92+"";
+		
+		
+	}
+	
+	@Keyword
 	def Macro_continue() {
 		Robot r = new Robot()
 		r.keyPress(KeyEvent.VK_CONTROL)

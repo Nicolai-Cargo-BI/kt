@@ -1,9 +1,14 @@
 {
-  "keywordFileContentHash": "4CB901FA915A4BEF10D60155A077FB98",
+  "keywordFileContentHash": "4FF9B86E6D06ACD07C13FE204A571CD6",
   "keywordClasses": [
     {
       "name": "com.db.keys",
       "keywordMethods": [
+        {
+          "name": "Scenarie_test_directory",
+          "parameters": [],
+          "javadoc": ""
+        },
         {
           "name": "Macro_continue",
           "parameters": [],
