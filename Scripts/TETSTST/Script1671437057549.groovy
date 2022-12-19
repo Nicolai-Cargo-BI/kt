@@ -17,14 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\System32\\Notepad.exe', '')
+Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', '')
 
-not_run: Windows.startApplicationWithTitle('C:\\Users\\Power\\AppData\\Local\\Cargo-BI\\Cargo-BI-Global-Client\\Cargo_BI_Client.exe', 
-    '')
+Windows.click(findWindowsObject('Object Repository/Edit'))
 
-not_run: Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Button_Maximize'))
-
-not_run: Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Edit_tbx_UserName'))
-
-not_run: Windows.setText(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Edit_tbx_UserName'), CustomKeywords.'com.db.keys.Scenarie_test_directory'())
+Windows.setText(findWindowsObject('Edit'), CustomKeywords.'com.db.keys.Scenarie_test_directory'())
 

@@ -32,15 +32,30 @@ public class keys {
 
 	@Keyword
 	def Scenarie_test_directory() {
+		String ch = "";
+		String con = "test";
 		
-		for (int i = 0; i<200; i++) {
-			println((char)i);
+		
+		Boolean found = false;
+		int i = 0;		
+		String target = "\\";
+
+		while(!found && i<1000) {
+			String temp = ((char)i).toString();
+			
+			if(temp.equals(target)) {
+				found = true;
+				con = ""+i+ " = " + target;
+			}
+			else {
+				i++;
+			}
+		
 		}
-		return ""+(char)92+"";
-		
-		
+		ch = con;
+				return con;
 	}
-	
+
 	@Keyword
 	def Macro_continue() {
 		Robot r = new Robot()
