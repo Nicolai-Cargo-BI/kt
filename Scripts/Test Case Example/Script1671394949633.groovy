@@ -17,9 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Windows\\notepad.exe', '')
-
-Windows.click(findWindowsObject('Object Repository/Edit'))
-
-Windows.setText(findWindowsObject('Edit'), CustomKeywords.'com.db.keys.Scenarie_test_directory'())
-

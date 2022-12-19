@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.annotation.TearDownIfFailed as TearDownIfFailed
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -34,23 +35,34 @@ Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_SignIn'))
 
 Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Button_DNA'))
 
-Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_cat'))
+Windows.delay(3)
+
+Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_Category_00EIVUZSMH'))
 
 Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_Menu_RND9RKKUJI'))
 
 Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_Solution_102HGJI0RB'))
 
-Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text'))
+Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_Upload'))
 
-Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/ToolBar'))
+Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/TreeItem_Scenarie'))
 
-CustomKeywords.'com.db.keys.Scenarie_test_directory'()
+Windows.doubleClick(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/ListItem_New Text Document (2)'))
 
-Windows.setText(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Edit_Address'), CustomKeywords.'com.db.keys.Scenarie_test_directory'())
+Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_SaveAndRefresh'))
 
-Windows.sendKeys(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Edit_Address'), Keys.chord(Keys.ENTER))
+Windows.verifyElementPresent(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_New Text Document (2).txt'), 0)
 
-Windows.delay(7)
+Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Button_btn_Delete'))
+
+Windows.click(findWindowsObject('CargoBI/Scenarie Test/Global/DNA/Text_SaveAndRefresh'))
 
 Windows.closeApplication()
+
+@TearDownIfFailed
+def handleFailure() {
+    CustomKeywords.'com.db.keys.Test_Fails'()
+
+    Windows.closeApplication()
+}
 
